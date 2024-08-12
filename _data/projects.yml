@@ -1,0 +1,327 @@
+example: 
+  slug: 
+  title: 
+  desc-short: 
+
+  color-background: 
+  color-text: 
+  color-accent:
+
+  video: 
+  gif: 
+  still: 
+
+  images: 
+
+  repo: 
+  itchlink: 
+  steamlink: 
+  otherlink:
+
+  role: 
+  daterange:  
+  teamsize: 
+  tools: 
+  awards:
+
+  writeup:
+
+
+
+rope-tool-database: 
+  slug: rope-tool-database
+  title: Online leaderboard for Project Rope Tool
+  desc-short: A database-backed web app built with NodeJS, ExpressJS, and MongoDB.
+
+  color-background: 
+  color-text: 
+  color-accent:
+
+  video: 
+  gif: 
+  still: 
+
+  images: 
+
+  repo: https://github.com/cep450/Rope-Tool-Database
+  itchlink: 
+  steamlink: 
+  otherlink:
+
+  role: Full Stack Developer
+  daterange: Jul-Aug 2024
+  teamsize: Solo
+  tools: NodeJS, ExpressJS, MongoDB, Handlebars, Unity C#
+  awards:
+
+  writeup:
+
+
+
+carbonbusters: 
+  slug: carbonbusters
+  title: Carbonbusters
+  desc-short: A sustainable transit sim about transforming car-centric infrastructure. Developed for IndieCade Climate Jam 2024 during an internship.
+
+  color-background: 
+  color-text: 
+  color-accent:
+
+  video: 
+  gif: 
+  still: 
+
+  images: 
+
+  repo: 
+  itchlink: https://computeruser.itch.io/carbonbusters
+  steamlink: https://store.steampowered.com/app/2958730/Project_Rope_Tool/
+  otherlink:
+
+  role: Programming Team Lead
+  daterange: Jun-Jul 2023
+  teamsize: 12
+  tools: Godot C#
+  awards:
+
+  writeup:
+
+
+
+rope-tool: 
+  slug: rope-tool
+  title: Project Rope Tool
+  desc-short: Physics-led action game where you pilot a spaceship using only a grappling hook and an industrial stapler.
+
+  color-background: 
+  color-text: 
+  color-accent:
+
+  video: 
+  gif: 
+  still: 
+
+  images: 
+
+  repo: 
+  itchlink: https://xandergoodwin.itch.io/rope-tool
+  steamlink: 
+  otherlink:
+
+  role: Principal Programmer
+  daterange: Aug 2023-Present 
+  teamsize: Team of >7
+  tools: Unity C#
+  awards: Technical Excellence, EDGE Exhibition 2024
+
+  writeup:
+
+
+
+poker-night: 
+  slug: pbouxhkiir-night
+  title: Pbouxhkiir Night on the Primox Alpha
+  desc-short: Narrative sci-fi comedy game. Won First Place in Pizza Jam 10.
+
+  color-background: 
+  color-text: 
+  color-accent:
+
+  video: 
+  gif: 
+  still: 
+
+  images: 
+
+  repo: 
+  itchlink: https://courtesy.itch.io/pbouxhkiir-night
+  steamlink: 
+  otherlink:
+
+  role: Programmer
+  daterange: Nov 2023
+  teamsize: 3
+  tools: Godot
+  awards: "First Place: Pizza Jam 10"
+
+  writeup:
+
+
+
+transmission: 
+  slug: transmission-received
+  title: Transmission Received
+  desc-short: A puzzle soundtoy about decoding an alien transmission. For No Words Jam 2023.
+
+  color-background: 
+  color-text: 
+  color-accent:
+
+  video: 
+  gif: 
+  still: 
+
+  images: 
+
+  repo: 
+  itchlink: https://computeruser.itch.io/transmission-received
+  steamlink: 
+  otherlink:
+
+  role: Programmer
+  daterange: Oct 2023
+  teamsize: 3
+  tools: Godot
+  awards:
+
+  writeup:
+
+
+
+example: 
+  slug: manual-labor-factory
+  title: I Love Working At The Repetitive Manual Labor Factory!
+  desc-short: Narrative game built in a custom programming language for fictional emulated hardware. For GMTK Jam 2023.
+
+  color-background: 
+  color-text: 
+  color-accent:
+
+  video: 
+  gif: 
+  still: 
+
+  images: 
+
+  repo: 
+  itchlink: https://mechafinch.itch.io/repetitive-manual-labor-factory
+  steamlink: 
+  otherlink:
+
+  role: Programmer
+  daterange:  
+  teamsize: 3
+  tools: 
+  awards:
+
+  writeup:
+
+
+
+terrarium: 
+  slug: terrarium
+  title: Terrarium
+  desc-short: A sustainable inversion of the colony sim genre. Meet the needs of a community without experiencing ecological collapse.
+
+  color-background: 
+  color-text: 
+  color-accent:
+
+  video: 
+  gif: 
+  still: 
+
+  images: 
+
+  repo: 
+  itchlink: https://computeruser.itch.io/gnomes
+  steamlink: 
+  otherlink:
+
+  role: Programmer
+  daterange: Jan-May 2023
+  teamsize: 3
+  tools: Unity C#
+  awards:
+
+  writeup:
+
+
+
+signal-creek: 
+  slug: signal-creek
+  title: Signal Creek
+  desc-short: A narrative RPG.
+
+  color-background: 
+  color-text: 
+  color-accent:
+
+  video: 
+  gif: 
+  still: 
+
+  images: 
+
+  repo: 
+  itchlink: 
+  steamlink: 
+  otherlink:
+
+  role: Programmer, Designer
+  daterange: Sept-Dec 2022
+  teamsize: 
+  tools: Godot C#, Inky
+  awards:
+
+  writeup:
+
+
+
+tokyo-rhythm-fighter: 
+  slug: tokyo-rhythm-fighter
+  title: Tokyo Rhythm Fighter
+  desc-short: A freestyle rhythm boss battle. Fight to the beat!
+
+  color-background: 
+  color-text: 
+  color-accent:
+
+  video: 
+  gif: 
+  still: 
+
+  images: 
+
+  repo: 
+  itchlink: https://computeruser.itch.io/tokyo-rhythm-fighter
+  steamlink: 
+  otherlink:
+
+  role: 
+  daterange:  
+  teamsize: 
+  tools: Unity C#
+  awards:
+
+  writeup:
+
+
+
+luna: 
+  slug: luna 
+  title: Luna
+  desc-short: A narrative game where you make choices by changing the channel on a radio.
+
+  color-background: 
+  color-text: 
+  color-accent:
+
+  video: 
+  gif: 
+  still: 
+
+  images: 
+
+  repo: 
+  itchlink: https://computeruser.itch.io/luna
+  steamlink: 
+  otherlink:
+
+  role: Programmer
+  daterange: Nov 2021
+  teamsize: 4
+  tools: Unity C#
+  awards:
+
+  writeup: 
