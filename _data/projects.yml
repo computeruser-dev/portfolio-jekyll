@@ -1,35 +1,7 @@
-example: 
-  slug: 
-  title: 
-  desc-short: 
-
-  color-background: 
-  color-text: 
-  color-accent:
-
-  video: 
-  gif: 
-  still: 
-
-  images: 
-
-  repo: 
-  itchlink: 
-  steamlink: 
-  otherlink:
-
-  role: 
-  daterange:  
-  teamsize: 
-  tools: 
-  awards:
-
-  writeup:
 
 
 
-rope-tool-database: 
-  slug: rope-tool-database
+- slug: rope-tool-database
   title: Online leaderboard for Project Rope Tool
   desc-short: A database-backed web app built with NodeJS, ExpressJS, and MongoDB.
 
@@ -58,8 +30,7 @@ rope-tool-database:
 
 
 
-carbonbusters: 
-  slug: carbonbusters
+- slug: carbonbusters
   title: Carbonbusters
   desc-short: A sustainable transit sim about transforming car-centric infrastructure. Developed for IndieCade Climate Jam 2024 during an internship.
 
@@ -88,8 +59,7 @@ carbonbusters:
 
 
 
-rope-tool: 
-  slug: rope-tool
+- slug: rope-tool
   title: Project Rope Tool
   desc-short: Physics-led action game where you pilot a spaceship using only a grappling hook and an industrial stapler.
 
@@ -117,9 +87,8 @@ rope-tool:
   writeup:
 
 
-
-poker-night: 
-  slug: pbouxhkiir-night
+ 
+- slug: pbouxhkiir-night
   title: Pbouxhkiir Night on the Primox Alpha
   desc-short: Narrative sci-fi comedy game. Won First Place in Pizza Jam 10.
 
@@ -148,8 +117,7 @@ poker-night:
 
 
 
-transmission: 
-  slug: transmission-received
+- slug: transmission-received
   title: Transmission Received
   desc-short: A puzzle soundtoy about decoding an alien transmission. For No Words Jam 2023.
 
@@ -178,8 +146,7 @@ transmission:
 
 
 
-example: 
-  slug: manual-labor-factory
+- slug: manual-labor-factory
   title: I Love Working At The Repetitive Manual Labor Factory!
   desc-short: Narrative game built in a custom programming language for fictional emulated hardware. For GMTK Jam 2023.
 
@@ -208,8 +175,7 @@ example:
 
 
 
-terrarium: 
-  slug: terrarium
+- slug: terrarium
   title: Terrarium
   desc-short: A sustainable inversion of the colony sim genre. Meet the needs of a community without experiencing ecological collapse.
 
@@ -238,8 +204,7 @@ terrarium:
 
 
 
-signal-creek: 
-  slug: signal-creek
+- slug: signal-creek
   title: Signal Creek
   desc-short: A narrative RPG.
 
@@ -268,8 +233,7 @@ signal-creek:
 
 
 
-tokyo-rhythm-fighter: 
-  slug: tokyo-rhythm-fighter
+- slug: tokyo-rhythm-fighter
   title: Tokyo Rhythm Fighter
   desc-short: A freestyle rhythm boss battle. Fight to the beat!
 
@@ -298,8 +262,7 @@ tokyo-rhythm-fighter:
 
 
 
-luna: 
-  slug: luna 
+- slug: luna 
   title: Luna
   desc-short: A narrative game where you make choices by changing the channel on a radio.
 

@@ -7,10 +7,20 @@
     <link href="style.css" rel="stylesheet" type="text/css" media="all">
   </head>
   <body onload="fillHeader">
-  
+
     <!--<div class="top-bar"></div>-->
   
     <div class="master-container">
+
+        <div class="about"></div>
+
+        {% for project in projects %}
+            {% include project-shortform.md data = project %}
+
+
+
+
+
       <div class="content-holder">
 
 		<div class="title-custom">

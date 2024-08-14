@@ -1,0 +1,23 @@
+ 
+- link: "https://computeruser.itch.io/"
+  icon: "/_images/icons/itch.png"
+  short: "itch.io" 
+  full: "computeruser.itch.io"
+ 
+- link: "https://github.com/cep450"
+  icon: "/_images/icons/github.png"
+  short: "github" 
+  full: "github.com/cep450"
+
+- link: "https://twitter.com/computerloved"
+  icon: "/_images/icons/twitter.png"
+  short: "twitter" 
+  full: "twitter.com/computerloved"
+ 
+- link: "mailto:cep450@nyu.edu"
+  icon: "/_images/icons/email.png"
+  short: "email" 
+  full: "email: cep450@nyu.edu"
+
+
+
