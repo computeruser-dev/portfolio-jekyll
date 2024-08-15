@@ -1,4 +1,4 @@
-- slug: example-with-everything
+example:
   title: Online leaderboard for Project Rope Tool
   desc-short: A database-backed web app built with NodeJS, ExpressJS, and MongoDB.
 
@@ -32,7 +32,7 @@
 
 
 
-- slug: rope-tool-database
+rope-tool-database:
   title: Online leaderboard for Project Rope Tool
   desc-short: A database-backed web app built with NodeJS, ExpressJS, and MongoDB.
 
@@ -62,7 +62,7 @@
 
 
 
-- slug: carbonbusters
+carbonbusters:
   title: Carbonbusters
   desc-short: A sustainable transit sim about transforming car-centric infrastructure. Developed for IndieCade Climate Jam 2024 during an internship.
 
@@ -92,7 +92,7 @@
 
 
 
-- slug: rope-tool
+rope-tool:
   title: Project Rope Tool
   desc-short: Physics-led action game where you pilot a spaceship using only a grappling hook and an industrial stapler.
 
@@ -122,7 +122,7 @@
 
 
  
-- slug: pbouxhkiir-night
+pbouxhkiir-night:
   title: Pbouxhkiir Night on the Primox Alpha
   desc-short: Narrative sci-fi comedy game. Won First Place in Pizza Jam 10.
 
@@ -152,7 +152,7 @@
 
 
 
-- slug: transmission-received
+transmission-received:
   title: Transmission Received
   desc-short: A puzzle soundtoy about decoding an alien transmission. For No Words Jam 2023.
 
@@ -182,7 +182,7 @@
 
 
 
-- slug: manual-labor-factory
+manual-labor-factory:
   title: I Love Working At The Repetitive Manual Labor Factory!
   desc-short: Narrative game built in a custom programming language for fictional emulated hardware. For GMTK Jam 2023.
 
@@ -212,7 +212,7 @@
 
 
 
-- slug: terrarium
+terrarium:
   title: Terrarium
   desc-short: A sustainable inversion of the colony sim genre. Meet the needs of a community without experiencing ecological collapse.
 
@@ -242,7 +242,7 @@
 
 
 
-- slug: signal-creek
+signal-creek:
   title: Signal Creek
   desc-short: A narrative RPG.
 
@@ -272,7 +272,7 @@
 
 
 
-- slug: tokyo-rhythm-fighter
+tokyo-rhythm-fighter:
   title: Tokyo Rhythm Fighter
   desc-short: A freestyle rhythm boss battle. Fight to the beat!
 
@@ -302,7 +302,7 @@
 
 
 
-- slug: luna 
+luna: 
   title: Luna
   desc-short: A narrative game where you make choices by changing the channel on a radio.
 
