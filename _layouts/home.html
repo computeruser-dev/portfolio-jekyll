@@ -4,34 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jaden's site</title>
-    <link href="style.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" href="{{'/assets/main.css' | absolute_url}}"/>
   </head>
   <body onload="fillHeader">
 
-    <!--<div class="top-bar"></div>-->
+    {% include header.html %}
   
-    <div class="master-container">
+    <div class="home-container">
 
-        <div class="about"></div>
-
-        {% for project in projects %}
-            {% include project-shortform.md data = project %}
-
-
-
-
-
-      <div class="content-holder">
-
-		<div class="title-custom">
-			About
-		</div>
-        <div class="inset">
-          	My name is Jaden. I am a software engineer and game designer who recently graduated from the NYU Game Center. I enjoy making games involving systems-driven emergent interactions and narrative, and games informed by sociology, environmental science, and climate solutions.
-            I enjoy building simulations and highly emergent systems for games and other software.
-            Someday I'd like to work on software that tackles climate change, and I'm already building games that communicate climate solutions.
-            I'm also interested in environmental systems science and sociology.
+        <div class="about">
+            <div class="title-custom">
+                About
+            </div>
+            <div class="inset">
+                TODO write up a better description.
+                <!--
+                  My name is Jaden. I am a software engineer and game designer who recently graduated from the NYU Game Center. I enjoy making games involving systems-driven emergent interactions and narrative, and games informed by sociology, environmental science, and climate solutions.
+                I enjoy building simulations and highly emergent systems for games and other software.
+                Someday I'd like to work on software that tackles climate change, and I'm already building games that communicate climate solutions.
+                I'm also interested in environmental systems science and sociology.
+            -->
+            </div>
         </div>
+
+        {% for project in projects.yml %}
+            <div class="project-short-container">
+                {% include project-shortform.html data = project %}
+            </div>
+        {% endfor %}
+
+      </div>
+    {% include footer.html %}
+    </div>
+  </body>
+</html>
+<!--
+      <div class="content-holder">
 
 		<div class="title-custom">
 			Links
@@ -124,3 +132,4 @@
     </div>
   </body>
 </html>
+-->

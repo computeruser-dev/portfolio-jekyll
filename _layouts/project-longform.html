@@ -1,14 +1,18 @@
 <div class="project-container">
     <div class="project-title">
-
+        {include.data.title}
     </div>
     <div class="project-stats">
 
     </div>
-    <div class="project-images">
-
+    <div class="project-gallery">
+        {% for image in include.data.images %}
+            <div class="project-gallery">
+                <img src={image}/>
+            </div>
+        {% endfor %}
     </div>
     <div class="project-writeup">
-
+        {include.data.writeup}
     </div>
 </div>

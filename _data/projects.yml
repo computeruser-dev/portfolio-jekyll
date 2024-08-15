@@ -1,3 +1,34 @@
+- slug: example-with-everything
+  title: Online leaderboard for Project Rope Tool
+  desc-short: A database-backed web app built with NodeJS, ExpressJS, and MongoDB.
+
+  color-background: yellow
+  color-text: black
+  color-accent: white
+
+  video: https://www.youtube.com/watch?v=Zsx46i_8UQo
+  gif: https://computeruser.neocities.org/images/rope_tool_3_24_gif_discord_optimized.gif
+  still: https://img.itch.zone/aW1nLzE0MDY4NTQ5LnBuZw==/315x250%23c/HY1sb1.png
+
+  images:
+   - "https://img.itch.zone/aW1nLzE0MDY4NTQ5LnBuZw==/315x250%23c/HY1sb1.png"
+   - "https://img.itch.zone/aW1nLzE0MDY4NTQ5LnBuZw==/315x250%23c/HY1sb1.png"
+
+  repo: https://github.com/cep450/Rope-Tool-Database
+  itchlink: https://computeruser.itch.io/carbonbusters
+  steamlink: https://store.steampowered.com/app/2958730/Project_Rope_Tool/
+  otherlink: http://ropetool.servehttp.com/leaderboard
+
+  role: Full Stack Developer
+  daterange: Jul-Aug 2024
+  teamsize: Solo
+  tools: NodeJS, ExpressJS, MongoDB, Handlebars, Unity C#
+  awards: "First Place: Pizza Jam 10"
+
+  posts: terrarium-retrospective
+  writeup: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+
+
 
 
 
@@ -18,7 +49,7 @@
   repo: https://github.com/cep450/Rope-Tool-Database
   itchlink: 
   steamlink: 
-  otherlink:
+  otherlink: http://ropetool.servehttp.com/leaderboard
 
   role: Full Stack Developer
   daterange: Jul-Aug 2024
@@ -26,6 +57,7 @@
   tools: NodeJS, ExpressJS, MongoDB, Handlebars, Unity C#
   awards:
 
+  posts:
   writeup:
 
 
@@ -46,7 +78,7 @@
 
   repo: 
   itchlink: https://computeruser.itch.io/carbonbusters
-  steamlink: https://store.steampowered.com/app/2958730/Project_Rope_Tool/
+  steamlink: 
   otherlink:
 
   role: Programming Team Lead
@@ -55,6 +87,7 @@
   tools: Godot C#
   awards:
 
+  posts:
   writeup:
 
 
@@ -75,7 +108,7 @@
 
   repo: 
   itchlink: https://xandergoodwin.itch.io/rope-tool
-  steamlink: 
+  steamlink: https://store.steampowered.com/app/2958730/Project_Rope_Tool/
   otherlink:
 
   role: Principal Programmer
@@ -84,6 +117,7 @@
   tools: Unity C#
   awards: Technical Excellence, EDGE Exhibition 2024
 
+  posts:
   writeup:
 
 
@@ -113,6 +147,7 @@
   tools: Godot
   awards: "First Place: Pizza Jam 10"
 
+  posts:
   writeup:
 
 
@@ -142,6 +177,7 @@
   tools: Godot
   awards:
 
+  posts:
   writeup:
 
 
@@ -171,6 +207,7 @@
   tools: 
   awards:
 
+  posts:
   writeup:
 
 
@@ -200,6 +237,7 @@
   tools: Unity C#
   awards:
 
+  posts:
   writeup:
 
 
@@ -229,6 +267,7 @@
   tools: Godot C#, Inky
   awards:
 
+  posts:
   writeup:
 
 
@@ -258,6 +297,7 @@
   tools: Unity C#
   awards:
 
+  posts:
   writeup:
 
 
@@ -287,4 +327,5 @@
   tools: Unity C#
   awards:
 
+  posts:
   writeup: 

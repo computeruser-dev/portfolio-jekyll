@@ -1,0 +1,31 @@
+---
+---
+
+@import "global";
+
+$cardWidth: 540px;
+
+
+.home-container {
+    width: (100vw / $cardWidth) - (100vw % $cardWidth);
+    border:2px solid black;
+}
+
+.home-card {
+    width:$cardWidth;
+    height:400px;
+}
+
+.project-short-container {
+    @extend .home-card;
+
+}
+
+.about {
+    @extend .home-card;
+    @extend .text-box;
+    color:yellow;
+}
+
+
+
