@@ -1,29 +1,59 @@
 
 @use "global";
 
+$color-bg: #ffdb4d;
+$color-bg-textbox: #ffe680;
+
+$containerMargin:20px;
+
 $cardWidth: 540px;
+$cardWidthTotal: $cardWidth + 10px;
+
+$cardHeight: 400px;
 
 
 .home-container {
-    width: (100vw / $cardWidth) - (100vw % $cardWidth);
-    border:2px solid black;
+    width: $cardWidthTotal;
+    margin: 0 auto;
+    margin: $containerMargin;
+}
+
+@media only screen and (min-width: calc(($cardWidthTotal * 2) + (containerMargin * 2))) {
+    .home-container {
+        width: $cardWidthTotal * 2;
+    }
+}
+@media only screen and (min-width: calc(($cardWidthTotal * 3) + (containerMargin * 2))) {
+    .home-container {
+        width: calc($cardWidthTotal * 3);
+    }
 }
 
 .home-card {
-    width:$cardWidth;
-    height:400px;
+    width:$cardWidth - 5px;
+    height: $cardHeight - 5px;
 }
 
 .project-short-container {
     @extend .home-card;
-
+    border:1px solid red;
 }
 
 .about {
     @extend .home-card;
-    @extend .text-box;
-    color:yellow;
+    @extend .comic-border;
+    background-color: $color-bg;
+    padding:20px;
 }
+
+.about/*, .about .text-box*/ {
+    transform: rotate(-1deg);
+}
+
+.about .about-untilt {
+    transform: rotate(1deg);
+}
+
 
 
 

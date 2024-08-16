@@ -34,7 +34,6 @@ plugins:
 
 sass: 
   sass_dir: _sass
-  style: compressed
 
 collections_dir: collections
 collections: 
