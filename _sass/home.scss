@@ -6,44 +6,65 @@ $color-bg-textbox: #ffe680;
 
 $containerMargin:20px;
 
-$cardWidth: 540px;
+$cardWidth: 640px;
 $cardWidthTotal: $cardWidth + 10px;
 
-$cardHeight: 400px;
+$aboutCardShift: 40px;
+
+$featureHeight: 360px;
+$titleHeight: 100px;
+$descHeight: 60px;
+$cardHeight: $featureHeight + $descHeight;
 
 
 .home-container {
-    width: $cardWidthTotal;
-    margin: 0 auto;
-    margin: $containerMargin;
+    margin: calc($aboutCardShift + $containerMargin) auto calc($cardHeight + $containerMargin);
+
+    @extend .debug;
 }
 
-@media only screen and (min-width: calc(($cardWidthTotal * 2) + (containerMargin * 2))) {
-    .home-container {
+#home-container {
+    width: $cardWidthTotal;
+}
+
+@media only screen and (min-width: calc(($cardWidthTotal * 2)/* + (containerMargin * 2)*/)) {
+    #home-container {
         width: $cardWidthTotal * 2;
     }
 }
-@media only screen and (min-width: calc(($cardWidthTotal * 3) + (containerMargin * 2))) {
-    .home-container {
+@media only screen and (min-width: calc(($cardWidthTotal * 3)/* + (containerMargin * 2)*/)) {
+    #home-container {
         width: calc($cardWidthTotal * 3);
     }
 }
 
-.home-card {
-    width:$cardWidth - 5px;
-    height: $cardHeight - 5px;
+.big-title {
+    font-size:36px;
+    font-weight:bold;
+    float:right;
+    height: $aboutCardShift;
+    margin-top:-$aboutCardShift;
 }
 
-.project-short-container {
-    @extend .home-card;
-    border:1px solid red;
+.home-card {
+    width:$cardWidth;
+    height: $cardHeight;
+}
+
+.home-card:nth-child(even) {
+    float:left
+}
+.home-card:nth-child(odd) {
+    float:right;
 }
 
 .about {
-    @extend .home-card;
     @extend .comic-border;
     background-color: $color-bg;
     padding:20px;
+    margin-top:-$aboutCardShift;
+    height: $cardHeight + $aboutCardShift - 60px;
+    width: calc($cardWidth - 60px);
 }
 
 .about/*, .about .text-box*/ {
@@ -52,6 +73,61 @@ $cardHeight: 400px;
 
 .about .about-untilt {
     transform: rotate(1deg);
+}
+
+.project-short-container {
+    @extend .home-card;
+    
+    @extend .debug;
+}
+
+.project-short {
+    clear:both;
+}
+
+.project-short-feature {
+    height:$featureHeight;
+    background-color:$color-bg;
+}
+
+.project-short-gradient {
+    height: $titleHeight;
+    margin-top: -$titleHeight;
+    background-image: linear-gradient(
+        hsl(0, 0%, 100%, 0) 0%,
+        hsla(0, 0%, 100%, 0.002) calc(100% - 98.2%),
+        hsla(0, 0%, 100%, 0.008) calc(100% - 95.2%),
+        hsla(0, 0%, 100%, 0.021) calc(100% - 91%),
+        hsla(0, 0%, 100%, 0.042) calc(100% - 86.1%),
+        hsla(0, 0%, 100%, 0.075) calc(100% - 80.2%),
+        hsla(0, 0%, 100%, 0.126) calc(100% - 73%),
+        hsla(0, 0%, 100%, 0.194)  calc(100% - 65%),
+        hsla(0, 0%, 100%, 0.278)  calc(100% - 56.5%),
+        hsla(0, 0%, 100%, 0.382)  calc(100% - 47%),
+        hsla(0, 0%, 100%, 0.541)  calc(100% - 34%),
+        hsla(0, 0%, 100%, 0.738)  calc(100% - 19%),
+        hsla(0, 0%, 100%) 100%
+      );
+
+      @extend .debug;
+}
+
+.project-short-title {
+    font-size:24px;
+    padding:0 15px 15px 15px;
+    color:black;
+    height: $titleHeight;
+    display: table-cell;
+    vertical-align: bottom;
+    width: $cardWidth;
+
+    @extend .debug;
+}
+
+.project-short-desc {
+    background-color: $color-bg-textbox; 
+    padding:15px;
+    height: $descHeight;
 }
 
 

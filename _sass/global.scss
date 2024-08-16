@@ -2,7 +2,9 @@
 $color-bg: #ffdb4d;
 $color-bg-textbox: #ffe680;
 
-
+.debug {
+    border:1px solid red;
+}
 
 body {
     color: black;
@@ -44,6 +46,7 @@ body {
 }
 
 .footer {
+    clear: both;
     font-size:10;
     margin-top:15px;
     margin-left:5px;

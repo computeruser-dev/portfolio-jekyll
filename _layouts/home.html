@@ -10,34 +10,39 @@
 
     {% include header.html %}
   
-    <div class="home-container">
+    <div class="home-container" id="home-container">
 
-        <div class="about">
-			<div class="about-untilt">
-				<div class="title-custom">
-					About
-				</div>
-				<div class="text-box">
-
-						{{ content }}
-
-				</div>
-				<div class="title-custom">
-					Links
-				</div>
-				<div class="text-box">
-
-						{% for link in site.data.links %}
-							{% include linktreelink.html data = link %}
-						{% endfor %}
-
+		<div class="big-title">
+			computeruser.neocities.org
+		</div>
+		<div class="home-card">
+			<div class="about">
+				<div class="about-untilt">
+					<div class="title-custom">
+						About
+					</div>
+					<div class="text-box">
+	
+							{{ content }}
+	
+					</div>
+					<div class="title-custom">
+						Links
+					</div>
+					<div class="text-box">
+	
+							{% for link in site.data.links %}
+								{% include linktreelink.html title = link.data %}
+							{% endfor %}
+	
+					</div>
 				</div>
 			</div>
-        </div>
+		</div>
 
         {% for project in site.data.projects %}
             <div class="project-short-container">
-                {% include project-shortform.html data = project %}
+                {% include project-shortform.html title = project.title desc = project.desc-short %}
             </div>
         {% endfor %}
 
