@@ -6,25 +6,94 @@ $color-bg-textbox: #ffe680;
 
 $containerMargin:30px;
 
-$cardExtra: 5px;
-
 $cardWidth: 640px;
-$cardWidthTotal: $cardWidth + $cardExtra;
+$featureHeight: 360px;
 
 $cardWidthSmall: 512px;
+$featureHeightSmall: 288px;
+
+$cardMargin:5px;
+
+$cardWidthTotal: calc($cardWidth + 2px + ($cardMargin * 2));
 
 $aboutCardShift: 40px;
 $aboutCardWidthReduction: 50px;
+$aboutCardExtraHeight: 120px;
 
-$featureHeight: 360px;
-$featureHeightSmall: 288px;
 $titleHeight: 120px;
 $descHeight: 70px;
 
 $cardHeight: $featureHeight + $descHeight;
-
 $cardHeightSmall: $featureHeightSmall + $descHeight;
 
+$titlePadding: 20px;
+$titleWordSpace: $titlePadding + $titlePadding + 30px;
+
+
+$bg-width-subtract: 170px;
+$bg-fadein-distance: 400px;
+$bg-highest-percent: 50%;
+.content-background {
+    width: calc($cardWidthTotal - $bg-width-subtract);
+    width:100px;
+    margin: 0 auto;
+    position:relative;
+    height:0;
+    z-index:-100;
+}
+
+
+.content-bg {
+    
+}
+
+.content-bg-top {
+    top: calc($aboutCardShift + $containerMargin);
+    height:$bg-fadein-distance;
+    background-image: linear-gradient( /* modified from: https://css-tricks.com/easing-linear-gradients/ */
+        hsl(48, 100%, 75%, 0) 0%,
+        hsla(48, 100%, 75%, 0.002) calc(100% - 98.2%),
+        hsla(48, 100%, 75%, 0.008) calc(100% - 95.2%),
+        hsla(48, 100%, 75%, 0.021) calc(100% - 91%),
+        hsla(48, 100%, 75%, 0.042) calc(100% - 86.1%),
+        hsla(48, 100%, 75%, 0.075) calc(100% - 80.2%),
+        hsla(48, 100%, 75%, 0.126) calc(100% - 73%),
+        hsla(48, 100%, 75%, 0.194)  calc(100% - 65%),
+        hsla(48, 100%, 75%, 0.278)  calc(100% - 56.5%),
+        hsla(48, 100%, 75%, 0.382)  calc(100% - 47%),
+   /*     hsla(48, 100%, 75%, 0.541)  calc(100% - 34%),
+        hsla(48, 100%, 75%, 0.738)  calc(100% - 19%),
+        hsla(48, 100%, 75%) 100%*/
+      );
+      @extend .content-bg;
+}
+
+.content-bg-middle {
+    background-color: rgba(255, 230, 128, 0.382);
+    height:1000px;
+    @extend .content-bg;
+}
+
+.content-bg-bottom {
+    height:$bg-fadein-distance;
+    bottom: $containerMargin;
+    background-image: linear-gradient( /* modified from: https://css-tricks.com/easing-linear-gradients/ */
+        hsl(48, 100%, 75%, 0) 0%,
+        hsla(48, 100%, 75%, 0.002) calc(100% - 98.2%),
+        hsla(48, 100%, 75%, 0.008) calc(100% - 95.2%),
+        hsla(48, 100%, 75%, 0.021) calc(100% - 91%),
+        hsla(48, 100%, 75%, 0.042) calc(100% - 86.1%),
+        hsla(48, 100%, 75%, 0.075) calc(100% - 80.2%),
+        hsla(48, 100%, 75%, 0.126) calc(100% - 73%),
+        hsla(48, 100%, 75%, 0.194)  calc(100% - 65%),
+        hsla(48, 100%, 75%, 0.278)  calc(100% - 56.5%),
+        hsla(48, 100%, 75%, 0.382)  calc(100% - 47%),
+   /*     hsla(48, 100%, 75%, 0.541)  calc(100% - 34%),
+        hsla(48, 100%, 75%, 0.738)  calc(100% - 19%),
+        hsla(48, 100%, 75%) 100%*/
+      );
+  @extend .content-bg;
+}
 
 .home-container {
     margin: calc($aboutCardShift + $containerMargin) auto $containerMargin;
@@ -36,12 +105,18 @@ $cardHeightSmall: $featureHeightSmall + $descHeight;
 
 @media only screen and (min-width: calc(($cardWidthTotal * 2)/* + (containerMargin * 2)*/)) {
     #home-container {
-        width: $cardWidthTotal * 2;
+        width: calc($cardWidthTotal * 2);
+    }
+    .content-background {
+        width: calc(($cardWidthTotal * 2) - $bg-width-subtract);
     }
 }
 @media only screen and (min-width: calc(($cardWidthTotal * 3)/* + (containerMargin * 2)*/)) {
     #home-container {
         width: calc($cardWidthTotal * 3);
+    }
+    .content-background {
+        width: calc(($cardWidthTotal * 3) - $bg-width-subtract);
     }
 }
 
@@ -54,15 +129,21 @@ $cardHeightSmall: $featureHeightSmall + $descHeight;
 }
 
 .home-card {
-    width:$cardWidth;
+    width: $cardWidth;
     height: $cardHeight;
+    margin: $cardMargin;
 }
 
 .home-card:nth-child(even) {
-    float:left
+    float:left;
 }
 .home-card:nth-child(odd) {
-    float:right;
+    float:left;
+}
+
+.about-card {
+    @extend .home-card;
+    height: calc($cardHeight + $aboutCardExtraHeight);
 }
 
 .about {
@@ -70,7 +151,7 @@ $cardHeightSmall: $featureHeightSmall + $descHeight;
     background-color: $color-bg;
     padding:20px;
     margin-top:-$aboutCardShift;
-    height: $cardHeight + $aboutCardShift - $aboutCardWidthReduction;
+    height: $cardHeight + $aboutCardShift - $aboutCardWidthReduction + $aboutCardExtraHeight;
     width: calc($cardWidth - $aboutCardWidthReduction);
 }
 
@@ -97,8 +178,6 @@ $cardHeightSmall: $featureHeightSmall + $descHeight;
     @extend .comic-border;
 
     transition:0.3s;
-
-    @extend .debug;
 }
 
 .project-short-container:hover .project-short {
@@ -131,31 +210,30 @@ $cardHeightSmall: $featureHeightSmall + $descHeight;
     height: $titleHeight;
     margin-top: -$titleHeight;
     background-image: linear-gradient( /* modified from: https://css-tricks.com/easing-linear-gradients/ */
-        hsl(0, 0%, 100%, 0) 0%,
-        hsla(0, 0%, 100%, 0.002) calc(100% - 98.2%),
-        hsla(0, 0%, 100%, 0.008) calc(100% - 95.2%),
-        hsla(0, 0%, 100%, 0.021) calc(100% - 91%),
-        hsla(0, 0%, 100%, 0.042) calc(100% - 86.1%),
-        hsla(0, 0%, 100%, 0.075) calc(100% - 80.2%),
-        hsla(0, 0%, 100%, 0.126) calc(100% - 73%),
-        hsla(0, 0%, 100%, 0.194)  calc(100% - 65%),
-        hsla(0, 0%, 100%, 0.278)  calc(100% - 56.5%),
-        hsla(0, 0%, 100%, 0.382)  calc(100% - 47%),
-        hsla(0, 0%, 100%, 0.541)  calc(100% - 34%),
-        hsla(0, 0%, 100%, 0.738)  calc(100% - 19%),
-        hsla(0, 0%, 100%) 100%
+        hsl(0, 0%, 0%, 0) 0%,
+        hsla(0, 0%, 0%, 0.002) calc(100% - 98.2%),
+        hsla(0, 0%, 0%, 0.008) calc(100% - 95.2%),
+        hsla(0, 0%, 0%, 0.021) calc(100% - 91%),
+        hsla(0, 0%, 0%, 0.042) calc(100% - 86.1%),
+        hsla(0, 0%, 0%, 0.075) calc(100% - 80.2%),
+        hsla(0, 0%, 0%, 0.126) calc(100% - 73%),
+        hsla(0, 0%, 0%, 0.194)  calc(100% - 65%),
+        hsla(0, 0%, 0%, 0.278)  calc(100% - 56.5%),
+        hsla(0, 0%, 0%, 0.382)  calc(100% - 47%),
+        hsla(0, 0%, 0%, 0.541)  calc(100% - 34%),
+        hsla(0, 0%, 0%, 0.738)  calc(100% - 19%),
+        hsla(0, 0%, 0%) 100%
       );
       position:relative;
       z-index:100;
     
 }
 
-$titlePadding: 20px;
-$titleWordSpace: $titlePadding + $titlePadding + 30px;
 .project-short-title {
     font-size:24px;
+    font-weight:bold;
     padding: $titlePadding;
-    color:black;
+    color:white;
     height: $titleWordSpace - calc($titlePadding * 2);
     width: $cardWidthSmall - calc($titlePadding * 2);
     margin-top: calc($titleHeight - $titleWordSpace);
@@ -169,13 +247,12 @@ $titleWordSpace: $titlePadding + $titlePadding + 30px;
     padding:15px;
     height: calc($descHeight - 30px);
     
-    /* background-color: $color-bg-textbox;
-    border-top: 1px dashed gold;*/
+    background-color: $color-bg-textbox;
+    border-top: 1px dashed gold;
 }
 .project-short-desc-text {
     width: calc($cardWidthSmall - 30px);
 }
-
 
 
 

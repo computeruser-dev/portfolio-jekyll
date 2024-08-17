@@ -6,25 +6,28 @@
     <title>Jaden's site</title>
 	<link rel="stylesheet" href="css/main.css">
   </head>
-  <body onload="fillHeader">
 
     {% include header.html %}
+
+	<div class="content-background">
+		<div class="content-bg-top"></div>
+		<div class="content-bg-middle"></div>
+		<div class="content-bg-bottom"></div>
+	</div>
   
     <div class="home-container" id="home-container">
 
 		<div class="big-title">
 			computeruser.neocities.org
 		</div>
-		<div class="home-card">
+		<div class="about-card">
 			<div class="about">
 				<div class="about-untilt">
 					<div class="title-custom">
 						About
 					</div>
 					<div class="text-box">
-	
 							{{ content }}
-	
 					</div>
 					<div class="title-custom">
 						Links
@@ -41,9 +44,7 @@
 		</div>
 
         {% for project in site.data.projects %}
-            <div class="project-short-container">
-                {% include project-shortform.html title = project.title desc = project.desc-short %}
-            </div>
+            {% include project-shortform.html title = project.title desc = project.desc-short %}
         {% endfor %}
 
 		{% include footer.html %}
