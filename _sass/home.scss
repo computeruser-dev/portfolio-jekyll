@@ -18,10 +18,10 @@ $cardWidthTotal: calc($cardWidth + 2px + ($cardMargin * 2));
 
 $aboutCardShift: 40px;
 $aboutCardWidthReduction: 50px;
-$aboutCardExtraHeight: 120px;
+$aboutCardExtraHeight: 100px;
 
 $titleHeight: 120px;
-$descHeight: 70px;
+$descHeight: 80px;
 
 $cardHeight: $featureHeight + $descHeight;
 $cardHeightSmall: $featureHeightSmall + $descHeight;
@@ -103,6 +103,7 @@ $bg-highest-percent: 50%;
     width: $cardWidthTotal;
 }
 
+/* 2 rows */
 @media only screen and (min-width: calc(($cardWidthTotal * 2)/* + (containerMargin * 2)*/)) {
     #home-container {
         width: calc($cardWidthTotal * 2);
@@ -110,13 +111,25 @@ $bg-highest-percent: 50%;
     .content-background {
         width: calc(($cardWidthTotal * 2) - $bg-width-subtract);
     }
+    .home-card:nth-child(2n) {
+        float:left;
+        clear: left;
+    }
+    .home-card:nth-child(2n + 1) {
+        clear: right;
+        float:right;
+    }
 }
+/* 3 rows */
 @media only screen and (min-width: calc(($cardWidthTotal * 3)/* + (containerMargin * 2)*/)) {
     #home-container {
         width: calc($cardWidthTotal * 3);
     }
     .content-background {
         width: calc(($cardWidthTotal * 3) - $bg-width-subtract);
+    }
+    .home-card:nth-child(3n + 2) {
+        clear: left;
     }
 }
 
@@ -132,12 +145,6 @@ $bg-highest-percent: 50%;
     width: $cardWidth;
     height: $cardHeight;
     margin: $cardMargin;
-}
-
-.home-card:nth-child(even) {
-    float:left;
-}
-.home-card:nth-child(odd) {
     float:left;
 }
 
@@ -244,8 +251,8 @@ $bg-highest-percent: 50%;
 
 .project-short-desc {
     background-color: white;
-    padding:15px;
-    height: calc($descHeight - 30px);
+    padding: $titlePadding;
+    height: calc($descHeight - ($titlePadding * 2));
     
     background-color: $color-bg-textbox;
     border-top: 1px dashed gold;

@@ -1,11 +1,10 @@
 <a 
     class="linktree-link" 
-    href={{include.data.link}} 
+    href={{include.link}} 
     target="_blank"
-    style="
-    
-    "
+    style=""
 >
-    <img src={{include.data.icon}}>
-    <div class="linktree-secret">{{include.data.full}}</div>{{include.data.short}}
+    <img src={{include.icon}}>
+    {{include.title}}
+    <div class="linktree-secret">{{include.full}}</div>{{include.short}}
 </a>

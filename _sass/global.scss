@@ -32,7 +32,7 @@ body {
 
 .text-box {
     background-color: $color-bg-textbox;
-    margin:20px 20px;
+    margin:20px;
     padding:25px;
     border: 1px dashed gold;
     font-size:17px;
@@ -70,6 +70,12 @@ body {
     transition: 0.3s;
   }
 
+.linktree-container {
+    @extend .text-box;
+    height:190px;	/*hacky fix for multiple button animations going causing the containing div height to change */
+    padding:5px;
+    padding-left:6px;
+}
 
 .header {
     position:fixed;

@@ -32,10 +32,10 @@
 					<div class="title-custom">
 						Links
 					</div>
-					<div class="text-box">
+					<div class="linktree-container">
 	
 							{% for link in site.data.links %}
-								{% include linktreelink.html title = link.data %}
+								{% include linktreelink.html title=link.title url=link.link icon=link.icon %}
 							{% endfor %}
 	
 					</div>
@@ -44,7 +44,7 @@
 		</div>
 
         {% for project in site.data.projects %}
-            {% include project-shortform.html title = project.title desc = project.desc-short %}
+            {% include project-shortform.html proj=project title=project.title desc=project.desc-short still=project.still %}
         {% endfor %}
 
 		{% include footer.html %}
