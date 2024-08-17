@@ -1,6 +1,6 @@
 - slug: gmtk-2024
   title: GMTK 2024
-  desc-short: A game where you program agents in Forth, made in Forth for custom hardware. Fits in 1mb!
+  desc-short: A game where you program robots to escape orbit. Made in Forth for custom hardware. Fits in 1mb!
 
   color-background: yellow
   color-text: black
@@ -14,7 +14,7 @@
    - "https://img.itch.zone/aW1nLzE0MDY4NTQ5LnBuZw==/315x250%23c/HY1sb1.png"
    - "https://img.itch.zone/aW1nLzE0MDY4NTQ5LnBuZw==/315x250%23c/HY1sb1.png"
 
-  repo: https://github.com/cep450/Rope-Tool-Database
+  repo: https://github.com/MechaFinch/GMTK-Game-Jam-2024
   itchlink: https://computeruser.itch.io/carbonbusters
   steamlink: https://store.steampowered.com/app/2958730/Project_Rope_Tool/
   otherlink: http://ropetool.servehttp.com/leaderboard
@@ -64,7 +64,7 @@
 
 - slug: carbonbusters
   title: Carbonbusters
-  desc-short: A sustainable transit sim about transforming car-centric infrastructure. Developed for IndieCade Climate Jam 2024 during an internship.
+  desc-short: A sustainable transit sim about transforming car-centric infrastructure to reduce transportation emissions.
 
   color-background: 
   color-text: 
@@ -76,7 +76,7 @@
 
   images: 
 
-  repo: 
+  repo: https://github.com/cep450/IndieCade-Climate-Jam-2024
   itchlink: https://computeruser.itch.io/carbonbusters
   steamlink: 
   otherlink:
@@ -127,7 +127,7 @@
  
 - slug: pbouxhkiir-night
   title: Pbouxhkiir Night on the Primox Alpha
-  desc-short: Narrative sci-fi comedy game. Won First Place in Pizza Jam 10.
+  desc-short: Wager the fate of the Earth in this narrative sci-fi comedy game. Won First Place in Pizza Jam 10.
 
   color-background: 
   color-text: 
@@ -204,7 +204,7 @@
     - /assets/img/projects/manual-labor-factory/mlf-thermostats.png
     - /assets/img/projects/manual-labor-factory/mlf-draw.png
 
-  repo: 
+  repo: https://github.com/MechaFinch/GTMK-jam-2023
   itchlink: https://mechafinch.itch.io/repetitive-manual-labor-factory
   steamlink: 
   otherlink:
@@ -234,7 +234,7 @@
 
   images: 
 
-  repo: 
+  repo: https://github.com/cep450/Terrarium
   itchlink: https://computeruser.itch.io/gnomes
   steamlink: 
   otherlink:
@@ -268,7 +268,7 @@
     - assets\img\projects\sc\sc-standing-1.jpg
     - assets\img\projects\sc\sc-dialogue-oneline.jpg
 
-  repo: 
+  repo: https://github.com/cep450/Signal-Creek
   itchlink: 
   steamlink: 
   otherlink:
@@ -301,7 +301,7 @@
     - assets\img\projects\tokyo-rhythm-fighter\trf-hold.png
     - assets\img\projects\tokyo-rhythm-fighter\trf-start.png
 
-  repo: 
+  repo: https://github.com/twinsrule527/TOKYO-RHYTHM-FIGHTER
   itchlink: https://computeruser.itch.io/tokyo-rhythm-fighter
   steamlink: 
   otherlink:
@@ -319,7 +319,7 @@
 
 - slug: luna 
   title: Luna
-  desc-short: A narrative game where you make choices by changing the channel on a radio.
+  desc-short: A narrative game where you make choices by changing the music on a car radio.
 
   color-background: 
   color-text: 
@@ -334,7 +334,7 @@
     - assets\img\projects\luna\luna-bands.png
     - assets\img\projects\luna\luna-talking-heads.png
 
-  repo: 
+  repo: https://github.com/cep450/LUNA
   itchlink: https://computeruser.itch.io/luna
   steamlink: 
   otherlink:

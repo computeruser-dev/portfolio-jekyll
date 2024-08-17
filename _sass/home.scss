@@ -183,8 +183,6 @@ $bg-highest-percent: 50%;
     height: $cardHeightSmall;
     margin: calc(($cardHeight - $cardHeightSmall) / 2) auto 0px auto;
 
-    @extend .comic-border;
-
     transition: $transitionSpeedProjSize;
 }
 
@@ -199,6 +197,8 @@ $bg-highest-percent: 50%;
 .project-short-feature {
     height:$featureHeightSmall;
     background-color:$color-bg;
+
+    @extend .comic-border;
 
     transition: $transitionSpeedProjSize;
 }
@@ -254,7 +254,7 @@ $bg-highest-percent: 50%;
 }
 
 .project-short-desc {
-    background-color: white;
+    background-color: black;
     padding: $titlePadding;
     height: calc($descHeight - ($titlePadding * 2));
     
