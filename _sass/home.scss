@@ -211,7 +211,8 @@ $bg-highest-percent: 50%;
 
 .project-short-feature img {
     max-width:100%;
-    overflow:hidden;
+    max-height:100%;
+    margin:auto;
     position:relative;
     z-index:10;
 }
