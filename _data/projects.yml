@@ -1,6 +1,6 @@
-- slug: example
-  title: Online leaderboard for Project Rope Tool
-  desc-short: A database-backed web app built with NodeJS, ExpressJS, and MongoDB.
+- slug: gmtk-2024
+  title: GMTK 2024
+  desc-short: A game where you program agents in Forth, made in Forth for custom hardware. Fits in 1mb!
 
   color-background: yellow
   color-text: black
@@ -19,13 +19,13 @@
   steamlink: https://store.steampowered.com/app/2958730/Project_Rope_Tool/
   otherlink: http://ropetool.servehttp.com/leaderboard
 
-  role: Full Stack Developer
-  daterange: Jul-Aug 2024
-  teamsize: Solo
-  tools: NodeJS, ExpressJS, MongoDB, Handlebars, Unity C#
-  awards: "First Place: Pizza Jam 10"
+  role: Programmer
+  daterange: Aug 2024
+  teamsize: 4
+  tools: NotSoTiny, Forth
+  awards: 
 
-  posts: terrarium-retrospective
+  posts: 
   writeup: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
 
@@ -42,7 +42,7 @@
 
   video: 
   gif: 
-  still: 
+  still: /assets/img/projects/rope-tool/1.png
 
   images: 
 
@@ -72,7 +72,7 @@
 
   video: 
   gif: 
-  still: 
+  still: /assets/img/projects/rope-tool/1.png
 
   images: 
 
@@ -102,7 +102,7 @@
 
   video: 
   gif: 
-  still: 
+  still: /assets/img/projects/rope-tool/1.png
 
   images: 
 
@@ -204,7 +204,7 @@
   role: Programmer
   daterange:  
   teamsize: 3
-  tools: 
+  tools: NotSoTiny, Assembly, Java
   awards:
 
   posts:
@@ -264,7 +264,7 @@
   role: Programmer, Designer
   daterange: Sept-Dec 2022
   teamsize: 
-  tools: Godot C#, Inky
+  tools: Godot, Inky
   awards:
 
   posts:
