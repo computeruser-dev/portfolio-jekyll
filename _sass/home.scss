@@ -14,7 +14,7 @@ $featureHeightSmall: 288px;
 
 $cardMargin:5px;
 
-$cardWidthTotal: calc($cardWidth + 2px + ($cardMargin * 2));
+$cardWidthTotal: calc($cardWidth + ($cardMargin * 2));
 
 $aboutCardShift: 40px;
 $aboutCardWidthReduction: 50px;
@@ -218,9 +218,11 @@ $bg-highest-percent: 50%;
 }
 
 .project-short-gradient {
+    
+    /*
     height: $titleHeight;
     margin-top: -$titleHeight;
-    background-image: linear-gradient( /* modified from: https://css-tricks.com/easing-linear-gradients/ */
+    background-image: linear-gradient( /* modified from: https://css-tricks.com/easing-linear-gradients/ *//*
         hsl(0, 0%, 0%, 0) 0%,
         hsla(0, 0%, 0%, 0.002) calc(100% - 98.2%),
         hsla(0, 0%, 0%, 0.008) calc(100% - 95.2%),
@@ -234,10 +236,9 @@ $bg-highest-percent: 50%;
         hsla(0, 0%, 0%, 0.541)  calc(100% - 34%),
         hsla(0, 0%, 0%, 0.738)  calc(100% - 19%),
         hsla(0, 0%, 0%) 100%
-      );
+      );*/
       position:relative;
       z-index:100;
-    
 }
 
 .project-short-title {
@@ -250,7 +251,6 @@ $bg-highest-percent: 50%;
     position:absolute;
     bottom:0;
     z-index:101;
-    
 }
 
 .project-short-desc {

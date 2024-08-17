@@ -1,6 +1,6 @@
 - slug: gmtk-2024
   title: GMTK 2024
-  desc-short: A game where you program robots to escape orbit. Made in Forth for custom hardware. Fits in 1mb!
+  desc-short: A game where you program robots to escape orbit. Written in Forth for custom hardware. Fits in 1mb! GMTK Jam 2024.
 
   color-background: yellow
   color-text: black
@@ -64,7 +64,7 @@
 
 - slug: carbonbusters
   title: Carbonbusters
-  desc-short: A sustainable transit sim about transforming car-centric infrastructure to reduce transportation emissions.
+  desc-short: A sustainable transit sim about transforming car-centric infrastructure. IndieCade Climate Jam 2024.
 
   color-background: 
   color-text: 
@@ -94,7 +94,7 @@
 
 - slug: rope-tool
   title: Project Rope Tool
-  desc-short: Physics-led action game where you pilot a spaceship using only a grappling hook and an industrial stapler.
+  desc-short: Physics-led action game where you pilot a spaceship using only a grappling hook and an industrial stapler. Releasing on Steam.
 
   color-background: 
   color-text: 
@@ -159,7 +159,7 @@
 
 - slug: transmission-received
   title: Transmission Received
-  desc-short: A puzzle soundtoy about decoding an alien transmission. For No Words Jam 2023.
+  desc-short: A puzzle soundtoy about decoding an alien transmission. No Words Jam 2023.
 
   color-background: 
   color-text: 
@@ -189,7 +189,7 @@
 
 - slug: manual-labor-factory
   title: I Love Working At The Repetitive Manual Labor Factory!
-  desc-short: Narrative game built in a custom programming language for fictional emulated hardware. For GMTK Jam 2023.
+  desc-short: Narrative game built in a custom programming language for custom emulated hardware. GMTK Jam 2023.
 
   color-background: 
   color-text: 
@@ -222,7 +222,7 @@
 
 - slug: terrarium
   title: Terrarium
-  desc-short: A sustainable inversion of the colony sim genre. Meet the needs of a community without experiencing ecological collapse.
+  desc-short: A sustainable inversion of the colony sim genre. Meet the needs of a community without causing ecological collapse.
 
   color-background: 
   color-text: 
@@ -252,7 +252,7 @@
 
 - slug: signal-creek
   title: Signal Creek
-  desc-short: A narrative RPG.
+  desc-short: A narrative RPG. Swap perspectives between a trio of characters. Releasing on Steam.
 
   color-background: 
   color-text: 
