@@ -12,9 +12,10 @@ $featureHeight: 360px;
 $cardWidthSmall: 512px;
 $featureHeightSmall: 288px;
 
-$cardMargin:5px;
+$cardMargin-side:5px;
+$cardMargin-top:12px;
 
-$cardWidthTotal: calc($cardWidth + ($cardMargin * 2));
+$cardWidthTotal: calc($cardWidth + ($cardMargin-side * 2));
 
 $aboutCardShift: 40px;
 $aboutCardWidthReduction: 50px;
@@ -145,7 +146,7 @@ $bg-highest-percent: 50%;
 .home-card {
     width: $cardWidth;
     height: $cardHeight;
-    margin: $cardMargin;
+    margin:$cardMargin-top $cardMargin-side;
     float:left;
 }
 
@@ -200,6 +201,9 @@ $bg-highest-percent: 50%;
 
     @extend .comic-border;
 
+    position:relative;
+    z-index:1;
+
     transition: $transitionSpeedProjSize;
 }
 
@@ -210,9 +214,14 @@ $bg-highest-percent: 50%;
 }
 
 .project-short-feature img {
-    max-width:100%;
+    /*
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+*/
     max-height:100%;
-    margin:auto;
+    max-width:100%;
+
     position:relative;
     z-index:10;
 }
@@ -222,7 +231,7 @@ $bg-highest-percent: 50%;
     /*
     height: $titleHeight;
     margin-top: -$titleHeight;
-    background-image: linear-gradient( /* modified from: https://css-tricks.com/easing-linear-gradients/ *//*
+    background-image: linear-gradient( /* modified from: https://css-tricks.com/easing-linear-gradients/ */ /*
         hsl(0, 0%, 0%, 0) 0%,
         hsla(0, 0%, 0%, 0.002) calc(100% - 98.2%),
         hsla(0, 0%, 0%, 0.008) calc(100% - 95.2%),
@@ -241,6 +250,43 @@ $bg-highest-percent: 50%;
       z-index:100;
 }
 
+.project-short-bottom {
+    
+    background-image: linear-gradient(
+        hsl(48, 100%, 75%) 0%,
+         hsla(48, 100%, 75%, 0.738) 19%,
+         hsla(48, 100%, 75%, 0.541) 34%,
+         hsla(48, 100%, 75%, 0.382) 47%,
+         hsla(48, 100%, 75%, 0.278) 56.5%,
+         hsla(48, 100%, 75%, 0.194) 65%,
+         hsla(48, 100%, 75%, 0.126) 73%,
+         hsla(48, 100%, 75%, 0.075) 80.2%,
+         hsla(48, 100%, 75%, 0.042) 86.1%,
+         hsla(48, 100%, 75%, 0.021) 91%,
+         hsla(48, 100%, 75%, 0.008) 95.2%,
+         hsla(48, 100%, 75%, 0.002) 98.2%,
+         hsla(48, 100%, 75%, 0) 100%
+       );
+
+    
+    z-index:0;
+    position:relative;
+    transition: $transitionSpeedProjSize;
+}
+.project-short-container:hover .project-short-bottom {
+
+    transition: $transitionSpeedProjSize;
+}
+
+.project-short-title-bottom {
+    font-size:24px;
+    font-weight:bold;
+    padding: $titlePadding;
+    color:black;
+    width: $cardWidthSmall - calc($titlePadding * 2);
+    z-index:101;
+}
+
 .project-short-title {
     font-size:24px;
     font-weight:bold;
@@ -253,6 +299,13 @@ $bg-highest-percent: 50%;
     z-index:101;
 }
 
+.project-short-bottom-desc {
+    padding: $titlePadding;
+    color:black;
+    width: $cardWidthSmall - calc($titlePadding * 2);
+    padding-top:0;
+}
+
 .project-short-desc {
     background-color: black;
     padding: $titlePadding;
@@ -262,7 +315,22 @@ $bg-highest-percent: 50%;
     border-top: 1px dashed gold;
 }
 .project-short-desc-text {
-    width: calc($cardWidthSmall - 30px);
+    width: calc($cardWidthSmall - 60px);
+}
+
+.project-short-hiddeninfo {
+    padding: $titlePadding;
+    float:right;
+    width:1px;
+    visibility:hidden;
+    transition: calc($transitionSpeedProjSize / 2);
+
+    @extend .debug;
+}
+.project-short-container:hover .project-short-hiddeninfo {
+    visibility: visible;
+    width: calc($cardWidth - $cardWidthSmall - 20px);
+    transition: calc($transitionSpeedProjSize / 2);
 }
 
 
