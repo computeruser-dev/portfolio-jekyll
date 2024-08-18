@@ -19,9 +19,13 @@
  
 - link: "mailto:cep450@nyu.edu"
   icon: "/assets/img/icons/email.png"
-  title: "Email"  
+  title: "Contact"  
   short: "email" 
   full: "email: cep450@nyu.edu"
 
-
+- link: ""
+  icon: "/assets/img/icons/email.png"
+  title: "Follow with RSS!"  
+  short: "" 
+  full: ""
 

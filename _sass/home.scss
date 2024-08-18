@@ -13,13 +13,13 @@ $cardWidthSmall: 512px;
 $featureHeightSmall: 288px;
 
 $cardMargin-side:5px;
-$cardMargin-top:12px;
+$cardMargin-top:20px;
 
 $cardWidthTotal: calc($cardWidth + ($cardMargin-side * 2));
 
 $aboutCardShift: 40px;
 $aboutCardWidthReduction: 50px;
-$aboutCardExtraHeight: 100px;
+$aboutCardExtraHeight: 120px;
 
 $titleHeight: 130px;
 $descHeight: 80px;
@@ -33,7 +33,7 @@ $titleWordSpace: $titlePadding + $titlePadding + 30px;
 $transitionSpeedProjSize: 0.3s;
 
 $bg-width-subtract: 0px;
-$bg-fadein-distance: 400px;
+$bg-fadein-distance: 440px;
 $bg-highest-percent: 50%;
 .content-background {
     width: calc($cardWidthTotal - $bg-width-subtract);
@@ -62,7 +62,7 @@ $bg-highest-percent: 50%;
         hsla(48, 100%, 75%, 0.126) calc(100% - 73%),
         hsla(48, 100%, 75%, 0.194)  calc(100% - 65%),
         hsla(48, 100%, 75%, 0.278)  calc(100% - 56.5%),
-        hsla(48, 100%, 75%, 0.382)  calc(100% - 47%),
+     /*   hsla(48, 100%, 75%, 0.382)  calc(100% - 47%),
    /*     hsla(48, 100%, 75%, 0.541)  calc(100% - 34%),
         hsla(48, 100%, 75%, 0.738)  calc(100% - 19%),
         hsla(48, 100%, 75%) 100%*/
@@ -71,7 +71,7 @@ $bg-highest-percent: 50%;
 }
 
 .content-bg-middle {
-    background-color: rgba(255, 230, 128, 0.382);
+    background-color: hsla(48, 100%, 75%, 0.278);
     height:2200px;
     @extend .content-bg;
 }
@@ -82,8 +82,8 @@ $bg-highest-percent: 50%;
       background-image: linear-gradient(
  /* hsl(48, 100%, 75%) 0%,
   hsla(48, 100%, 75%, 0.738) 19%,
-  hsla(48, 100%, 75%, 0.541) 34%,*/
-  hsla(48, 100%, 75%, 0.382) 47%,
+  hsla(48, 100%, 75%, 0.541) 34%,
+  hsla(48, 100%, 75%, 0.382) 47%,*/
   hsla(48, 100%, 75%, 0.278) 56.5%,
   hsla(48, 100%, 75%, 0.194) 65%,
   hsla(48, 100%, 75%, 0.126) 73%,
@@ -160,7 +160,7 @@ $bg-highest-percent: 50%;
     background-color: $color-bg;
     padding:20px;
     margin-top:-$aboutCardShift;
-    height: $cardHeight + $aboutCardShift - $aboutCardWidthReduction + $aboutCardExtraHeight;
+    /*height: $cardHeight + $aboutCardShift - $aboutCardWidthReduction + $aboutCardExtraHeight;*/
     width: calc($cardWidth - $aboutCardWidthReduction);
 }
 
@@ -171,6 +171,16 @@ $bg-highest-percent: 50%;
 .about .about-untilt {
     transform: rotate(1deg);
 }
+
+/* featured project */
+.featured {
+    @extend .text-box;
+    transform: rotate(1deg);
+}
+.featured-untilt {
+    transform:rotate(-1deg);
+}
+
 
 .project-short-container {
     @extend .home-card;
@@ -219,7 +229,7 @@ $bg-highest-percent: 50%;
     background-position: 50% 50%;
     background-size: cover;
 */
-    max-height:100%;
+    max-height: 100%;
     max-width:100%;
 
     position:relative;
@@ -251,6 +261,12 @@ $bg-highest-percent: 50%;
 }
 
 .project-short-bottom {
+
+    /* cheating */
+    border-top: 5px solid hsl(48, 100%, 75%); 
+    margin-top:-5px;
+    
+    height: calc($cardHeight - $featureHeightSmall + $cardMargin-top);
     
     background-image: linear-gradient(
         hsl(48, 100%, 75%) 0%,
@@ -319,18 +335,18 @@ $bg-highest-percent: 50%;
 }
 
 .project-short-hiddeninfo {
-    padding: $titlePadding;
     float:right;
-    width:1px;
-    visibility:hidden;
-    transition: calc($transitionSpeedProjSize / 2);
 
-    @extend .debug;
+    visibility:hidden;
+    width:0px;
+    padding:0px;
+    transition: calc($transitionSpeedProjSize);
 }
 .project-short-container:hover .project-short-hiddeninfo {
     visibility: visible;
     width: calc($cardWidth - $cardWidthSmall - 20px);
-    transition: calc($transitionSpeedProjSize / 2);
+    padding: $titlePadding;
+    transition: calc($transitionSpeedProjSize);
 }
 
 
