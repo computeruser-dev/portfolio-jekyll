@@ -32,27 +32,36 @@ $titleWordSpace: $titlePadding + $titlePadding + 30px;
 
 $transitionSpeedProjSize: 0.3s;
 
+
+
 $bg-width-subtract: 0px;
 $bg-fadein-distance: 440px;
 $bg-highest-percent: 50%;
-.content-background {
-    width: calc($cardWidthTotal - $bg-width-subtract);
-    width:100px;
-    margin: 0 auto;
-    position:relative;
-    height:0;
-    z-index:-100;
+
+.home-container {
+
+    background: 
+    linear-gradient(
+    hsl(48, 100%, 75%, 0) 0%,
+    hsla(48, 100%, 75%, 0.28) calc($bg-fadein-distance),
+    hsla(48, 100%, 75%, 0.28) calc(100% - $bg-fadein-distance),
+    hsl(48, 100%, 75%, 0) 100%
+    )/*,
+    linear-gradient( to right, 
+    hsl(48, 100%, 75%, 0) 0%,
+    hsla(48, 100%, 75%, 0.3) calc($bg-fadein-distance),
+    hsla(48, 100%, 75%, 0.3) calc(100% - $bg-fadein-distance),
+    hsl(48, 100%, 75%, 0) 100%
+    )*/;
 }
 
 
-.content-bg {
-    
-}
+/*
 
 .content-bg-top {
     top: calc($aboutCardShift + $containerMargin);
     height:$bg-fadein-distance;
-    background-image: linear-gradient( /* modified from: https://css-tricks.com/easing-linear-gradients/ */
+    background-image: linear-gradient( /* modified from: https://css-tricks.com/easing-linear-gradients/ *//*
         hsl(48, 100%, 75%, 0) 0%,
         hsla(48, 100%, 75%, 0.002) calc(100% - 98.2%),
         hsla(48, 100%, 75%, 0.008) calc(100% - 95.2%),
@@ -65,7 +74,7 @@ $bg-highest-percent: 50%;
      /*   hsla(48, 100%, 75%, 0.382)  calc(100% - 47%),
    /*     hsla(48, 100%, 75%, 0.541)  calc(100% - 34%),
         hsla(48, 100%, 75%, 0.738)  calc(100% - 19%),
-        hsla(48, 100%, 75%) 100%*/
+        hsla(48, 100%, 75%) 100%*//*
       );
       @extend .content-bg;
 }
@@ -83,7 +92,7 @@ $bg-highest-percent: 50%;
  /* hsl(48, 100%, 75%) 0%,
   hsla(48, 100%, 75%, 0.738) 19%,
   hsla(48, 100%, 75%, 0.541) 34%,
-  hsla(48, 100%, 75%, 0.382) 47%,*/
+  hsla(48, 100%, 75%, 0.382) 47%,*//*
   hsla(48, 100%, 75%, 0.278) 56.5%,
   hsla(48, 100%, 75%, 0.194) 65%,
   hsla(48, 100%, 75%, 0.126) 73%,
@@ -96,6 +105,7 @@ $bg-highest-percent: 50%;
 );
   @extend .content-bg;
 }
+*/
 
 .home-container {
     margin: calc($aboutCardShift + $containerMargin) auto $containerMargin;
@@ -110,9 +120,6 @@ $bg-highest-percent: 50%;
     #home-container {
         width: calc($cardWidthTotal * 2);
     }
-    .content-background {
-        width: calc(($cardWidthTotal * 2) - $bg-width-subtract);
-    }
     .home-card:nth-child(2n) {
         float:left;
         clear: left;
@@ -126,9 +133,6 @@ $bg-highest-percent: 50%;
 @media only screen and (min-width: calc(($cardWidthTotal * 3)/* + (containerMargin * 2)*/)) {
     #home-container {
         width: calc($cardWidthTotal * 3);
-    }
-    .content-background {
-        width: calc(($cardWidthTotal * 3) - $bg-width-subtract);
     }
     .home-card:nth-child(3n + 2) {
         clear: left;
@@ -348,6 +352,3 @@ $bg-highest-percent: 50%;
     padding: $titlePadding;
     transition: calc($transitionSpeedProjSize);
 }
-
-
-
