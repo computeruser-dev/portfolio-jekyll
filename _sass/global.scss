@@ -89,7 +89,7 @@ body {
 
 .footer {
     clear: both;
-    font-size:10;
-    margin-top:15px;
-    margin-left:5px;
+    padding:15px;
+    position:relative;
+    z-index:200;
 }

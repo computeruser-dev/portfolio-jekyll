@@ -13,7 +13,7 @@ $cardWidthSmall: 512px;
 $featureHeightSmall: 288px;
 
 $cardMargin-side:5px;
-$cardMargin-top:20px;
+$cardMargin-top:25px;
 
 $cardWidthTotal: calc($cardWidth + ($cardMargin-side * 2));
 
@@ -33,28 +33,7 @@ $titleWordSpace: $titlePadding + $titlePadding + 30px;
 $transitionSpeedProjSize: 0.3s;
 
 
-
-$bg-width-subtract: 0px;
 $bg-fadein-distance: 440px;
-$bg-highest-percent: 50%;
-
-.home-container {
-
-    background: 
-    linear-gradient(
-    hsl(48, 100%, 75%, 0) 0%,
-    hsla(48, 100%, 75%, 0.28) calc($bg-fadein-distance),
-    hsla(48, 100%, 75%, 0.28) calc(100% - $bg-fadein-distance),
-    hsl(48, 100%, 75%, 0) 100%
-    )/*,
-    linear-gradient( to right, 
-    hsl(48, 100%, 75%, 0) 0%,
-    hsla(48, 100%, 75%, 0.3) calc($bg-fadein-distance),
-    hsla(48, 100%, 75%, 0.3) calc(100% - $bg-fadein-distance),
-    hsl(48, 100%, 75%, 0) 100%
-    )*/;
-}
-
 
 /*
 
@@ -108,7 +87,21 @@ $bg-highest-percent: 50%;
 */
 
 .home-container {
-    margin: calc($aboutCardShift + $containerMargin) auto $containerMargin;
+    margin: calc($aboutCardShift + $containerMargin) auto calc($containerMargin);
+
+    background: 
+    linear-gradient(
+    hsl(48, 100%, 75%, 0) 0%,
+    hsla(48, 100%, 75%, 0.28) calc($bg-fadein-distance),
+    hsla(48, 100%, 75%, 0.28) calc(100% - $bg-fadein-distance),
+    hsl(48, 100%, 75%, 0) 100%
+    )/*,
+    linear-gradient( to right, 
+    hsl(48, 100%, 75%, 0) 0%,
+    hsla(48, 100%, 75%, 0.3) calc($bg-fadein-distance),
+    hsla(48, 100%, 75%, 0.3) calc(100% - $bg-fadein-distance),
+    hsl(48, 100%, 75%, 0) 100%
+    )*/;
 }
 
 #home-container {
@@ -350,5 +343,16 @@ $bg-highest-percent: 50%;
     visibility: visible;
     width: calc($cardWidth - $cardWidthSmall - 20px);
     padding: $titlePadding;
+    transition: calc($transitionSpeedProjSize);
+}
+
+.hidden-icon {
+    max-width:0px;
+    margin:0px;
+    transition: calc($transitionSpeedProjSize);
+}
+.project-short-container:hover .hidden-icon {
+    max-width:32px;
+    margin:2px;
     transition: calc($transitionSpeedProjSize);
 }

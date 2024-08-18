@@ -44,7 +44,7 @@
 		</div>
 
         {% for project in site.data.projects %}
-            {% include project-shortform.html proj=project title=project.title desc=project.desc-short still=project.still %}
+            {% include project-shortform.html proj=project title=project.title desc=project.desc-short still=project.still link=project.featurelink icons=project.icons %}
         {% endfor %}
 
 		{% include footer.html %}

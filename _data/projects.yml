@@ -15,15 +15,22 @@
    - "https://img.itch.zone/aW1nLzE0MDY4NTQ5LnBuZw==/315x250%23c/HY1sb1.png"
 
   repo: https://github.com/MechaFinch/GMTK-Game-Jam-2024
-  itchlink: https://computeruser.itch.io/carbonbusters
-  steamlink: https://store.steampowered.com/app/2958730/Project_Rope_Tool/
-  otherlink: http://ropetool.servehttp.com/leaderboard
+  itchlink: https://computeruser.itch.io/GMTK-2024
+  steamlink: 
+  otherlink: 
+
+  featurelink: https://computeruser.itch.io/GMTK-2024
 
   role: Programmer
   daterange: Aug 2024
   teamsize: 4
   tools: NotSoTiny, Forth
   awards: 
+
+  icons: 
+    - _site\assets\img\icons\itch.png
+    - _site\assets\img\icons\NST.png 
+    - _site\assets\img\icons\forth.png
 
   posts: 
   writeup: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
@@ -51,11 +58,20 @@
   steamlink: 
   otherlink: http://ropetool.servehttp.com/leaderboard
 
+  featurelink: https://github.com/cep450/Rope-Tool-Database
+
   role: Full Stack Developer
   daterange: Jul-Aug 2024
   teamsize: Solo
   tools: NodeJS, ExpressJS, MongoDB, Handlebars, Unity C#
   awards:
+
+  icons: 
+    - _site\assets\img\icons\mongodb.png
+    - _site\assets\img\icons\expressjs.png 
+    - _site\assets\img\icons\nodejs.png
+    - _site\assets\img\icons\csharp.png
+    - _site\assets\img\icons\unity.png
 
   posts:
   writeup:
@@ -81,11 +97,18 @@
   steamlink: 
   otherlink:
 
+  featurelink: https://computeruser.itch.io/carbonbusters
+
   role: Programming Team Lead
   daterange: Jun-Jul 2023
   teamsize: 12
   tools: Godot C#
   awards:
+
+  icons: 
+    - _site\assets\img\icons\itch.png
+    - _site\assets\img\icons\godot.png 
+    - _site\assets\img\icons\csharp.png
 
   posts:
   writeup:
@@ -114,11 +137,19 @@
   steamlink: https://store.steampowered.com/app/2958730/Project_Rope_Tool/
   otherlink:
 
+  featurelink: https://store.steampowered.com/app/2958730/Project_Rope_Tool/
+
   role: Principal Programmer
   daterange: Aug 2023-Present 
   teamsize: Team of >7
   tools: Unity C#
   awards: Technical Excellence, EDGE Exhibition 2024
+
+  icons: 
+    - _site\assets\img\icons\itch.png
+    - _site\assets\img\icons\steam.png 
+    - _site\assets\img\icons\unity.png 
+    - _site\assets\img\icons\csharp.png
 
   posts:
   writeup:
@@ -146,11 +177,18 @@
   steamlink: 
   otherlink:
 
+  featurelink: https://courtesy.itch.io/pbouxhkiir-night
+
   role: Programmer
   daterange: Nov 2023
   teamsize: 3
-  tools: Godot
+  tools: Godot, Inky
   awards: "First Place: Pizza Jam 10"
+
+  icons: 
+    - _site\assets\img\icons\itch.png
+    - _site\assets\img\icons\godot.png
+    - _site\assets\img\icons\inky.png
 
   posts:
   writeup:
@@ -176,11 +214,17 @@
   steamlink: 
   otherlink:
 
+  featurelink: https://computeruser.itch.io/transmission-received
+
   role: Programmer
   daterange: Oct 2023
   teamsize: 3
   tools: Godot
   awards:
+
+  icons :
+    - _site\assets\img\icons\itch.png
+    - _site\assets\img\icons\godot.png
 
   posts:
   writeup:
@@ -209,11 +253,18 @@
   steamlink: 
   otherlink:
 
+  featurelink: https://mechafinch.itch.io/repetitive-manual-labor-factory
+
   role: Programmer
   daterange:  
   teamsize: 3
   tools: NotSoTiny, Assembly, Java
   awards:
+
+  icons: 
+    - _site\assets\img\icons\itch.png
+    - _site\assets\img\icons\NST.png 
+    - _site\assets\img\icons\java.png
 
   posts:
   writeup:
@@ -239,11 +290,18 @@
   steamlink: 
   otherlink:
 
+  featurelink: https://computeruser.itch.io/gnomes
+
   role: Programmer
   daterange: Jan-May 2023
   teamsize: 3
   tools: Unity C#
   awards:
+
+  icons: 
+    - _site\assets\img\icons\itch.png
+    - _site\assets\img\icons\unity.png 
+    - _site\assets\img\icons\csharp.png
 
   posts:
   writeup:
@@ -273,11 +331,18 @@
   steamlink: 
   otherlink:
 
+  featurelink: https://github.com/cep450/Signal-Creek
+
   role: Programmer, Designer
   daterange: Sept-Dec 2022
   teamsize: 
   tools: Godot, Inky
   awards:
+
+  icons: 
+    - _site\assets\img\icons\steam.png 
+    - _site\assets\img\icons\godot.png 
+    - _site\assets\img\icons\inky.png
 
   posts:
   writeup:
@@ -306,11 +371,18 @@
   steamlink: 
   otherlink:
 
+  featurelink: https://computeruser.itch.io/tokyo-rhythm-fighter
+
   role: 
   daterange:  
   teamsize: 
   tools: Unity C#
   awards:
+
+  icons: 
+    - _site\assets\img\icons\itch.png 
+    - _site\assets\img\icons\unity.png 
+    - _site\assets\img\icons\csharp.png 
 
   posts:
   writeup:
@@ -339,11 +411,18 @@
   steamlink: 
   otherlink:
 
+  featurelink: https://computeruser.itch.io/luna
+
   role: Programmer
   daterange: Nov 2021
   teamsize: 4
   tools: Unity C#
   awards:
+
+  icons: 
+    - _site\assets\img\icons\itch.png
+    - _site\assets\img\icons\unity.png 
+    - _site\assets\img\icons\csharp.png
 
   posts:
   writeup: 

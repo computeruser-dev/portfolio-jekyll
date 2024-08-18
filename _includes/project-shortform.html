@@ -1,29 +1,27 @@
 <div class="project-short-container">
     <div class="project-short">
         <div class="project-short-small">
-            <div class="project-short-feature">
-                <img src={{include.still}}/>
-                <!--
-                <div class="project-short-feature-img" 
-                {% assign str1 = "background-image:url(" %}
-                {% assign str2 = ")" %}
-                {% assign strfull = {{str1}} | append: {{include.still}} | append: {{str2}} %}
-                    style= {{ strfull }} ></div>-->
-            </div>
+            <a href={{include.link}}>
+                <div class="project-short-feature">
+                    <img src={{include.still}}/>
+                    <!--
+                    <div class="project-short-feature-img" 
+                    {% assign str1 = "background-image:url(" %}
+                    {% assign str2 = ")" %}
+                    {% assign strfull = {{str1}} | append: {{include.still}} | append: {{str2}} %}
+                        style= {{ strfull }} ></div>-->
+                </div>
+            </a>
             <div class="project-short-gradient">
                 <div class="project-short-title">
                     
                 </div>
             </div>
-            <!--
-            <div class="project-short-desc">
-                <div class="project-short-desc-text">
-                    {{include.desc}}
-                </div>
-            </div>-->
             <div class="project-short-bottom">
                 <div class="project-short-hiddeninfo">
-                    A secret which will be revealed!
+                    {% for icon in include.icons %}
+                        <img class="hidden-icon" src={{icon}}/>
+                    {% endfor %}
                 </div>
                 <div class="project-short-title-bottom">
                     {{include.title}}
