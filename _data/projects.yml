@@ -28,9 +28,9 @@
   awards: 
 
   icons: 
-    - _site\assets\img\icons\itch.png
-    - _site\assets\img\icons\NST.png 
-    - _site\assets\img\icons\forth.png
+    - \assets\img\icons\itch.png
+    - \assets\img\icons\NST.png 
+    - \assets\img\icons\forth.png
 
   posts: 
   writeup: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
@@ -67,11 +67,11 @@
   awards:
 
   icons: 
-    - _site\assets\img\icons\mongodb.png
-    - _site\assets\img\icons\expressjs.png 
-    - _site\assets\img\icons\nodejs.png
-    - _site\assets\img\icons\csharp.png
-    - _site\assets\img\icons\unity.png
+    - \assets\img\icons\mongodb.png
+    - \assets\img\icons\expressjs.png 
+    - \assets\img\icons\nodejs.png
+    - \assets\img\icons\csharp.png
+    - \assets\img\icons\unity.png
 
   posts:
   writeup:
@@ -106,9 +106,9 @@
   awards:
 
   icons: 
-    - _site\assets\img\icons\itch.png
-    - _site\assets\img\icons\godot.png 
-    - _site\assets\img\icons\csharp.png
+    - \assets\img\icons\itch.png
+    - \assets\img\icons\godot.png 
+    - \assets\img\icons\csharp.png
 
   posts:
   writeup:
@@ -146,10 +146,10 @@
   awards: Technical Excellence, EDGE Exhibition 2024
 
   icons: 
-    - _site\assets\img\icons\itch.png
-    - _site\assets\img\icons\steam.png 
-    - _site\assets\img\icons\unity.png 
-    - _site\assets\img\icons\csharp.png
+    - \assets\img\icons\itch.png
+    - \assets\img\icons\steam.png 
+    - \assets\img\icons\unity.png 
+    - \assets\img\icons\csharp.png
 
   posts:
   writeup:
@@ -186,9 +186,9 @@
   awards: "First Place: Pizza Jam 10"
 
   icons: 
-    - _site\assets\img\icons\itch.png
-    - _site\assets\img\icons\godot.png
-    - _site\assets\img\icons\inky.png
+    - \assets\img\icons\itch.png
+    - \assets\img\icons\godot.png
+    - \assets\img\icons\inky.png
 
   posts:
   writeup:
@@ -223,8 +223,8 @@
   awards:
 
   icons :
-    - _site\assets\img\icons\itch.png
-    - _site\assets\img\icons\godot.png
+    - \assets\img\icons\itch.png
+    - \assets\img\icons\godot.png
 
   posts:
   writeup:
@@ -262,9 +262,9 @@
   awards:
 
   icons: 
-    - _site\assets\img\icons\itch.png
-    - _site\assets\img\icons\NST.png 
-    - _site\assets\img\icons\java.png
+    - \assets\img\icons\itch.png
+    - \assets\img\icons\NST.png 
+    - \assets\img\icons\java.png
 
   posts:
   writeup:
@@ -299,9 +299,9 @@
   awards:
 
   icons: 
-    - _site\assets\img\icons\itch.png
-    - _site\assets\img\icons\unity.png 
-    - _site\assets\img\icons\csharp.png
+    - \assets\img\icons\itch.png
+    - \assets\img\icons\unity.png 
+    - \assets\img\icons\csharp.png
 
   posts:
   writeup:
@@ -340,9 +340,9 @@
   awards:
 
   icons: 
-    - _site\assets\img\icons\steam.png 
-    - _site\assets\img\icons\godot.png 
-    - _site\assets\img\icons\inky.png
+    - \assets\img\icons\steam.png 
+    - \assets\img\icons\godot.png 
+    - \assets\img\icons\inky.png
 
   posts:
   writeup:
@@ -380,9 +380,9 @@
   awards:
 
   icons: 
-    - _site\assets\img\icons\itch.png 
-    - _site\assets\img\icons\unity.png 
-    - _site\assets\img\icons\csharp.png 
+    - \assets\img\icons\itch.png 
+    - \assets\img\icons\unity.png 
+    - \assets\img\icons\csharp.png 
 
   posts:
   writeup:
@@ -420,9 +420,9 @@
   awards:
 
   icons: 
-    - _site\assets\img\icons\itch.png
-    - _site\assets\img\icons\unity.png 
-    - _site\assets\img\icons\csharp.png
+    - \assets\img\icons\itch.png
+    - \assets\img\icons\unity.png 
+    - \assets\img\icons\csharp.png
 
   posts:
   writeup: 

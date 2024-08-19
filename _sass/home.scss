@@ -341,18 +341,22 @@ $bg-fadein-distance: 440px;
 }
 .project-short-container:hover .project-short-hiddeninfo {
     visibility: visible;
-    width: calc($cardWidth - $cardWidthSmall - 20px);
+    width: calc($cardWidth - $cardWidthSmall - 15px);
     padding: $titlePadding;
+    padding-top: calc($titlePadding + 5px);
+    padding-left:0px;
+    padding-bottom: 0px;
     transition: calc($transitionSpeedProjSize);
 }
 
 .hidden-icon {
+    float:right;
     max-width:0px;
     margin:0px;
     transition: calc($transitionSpeedProjSize);
 }
 .project-short-container:hover .hidden-icon {
     max-width:32px;
-    margin:2px;
+    margin: 0 0 5px 5px;
     transition: calc($transitionSpeedProjSize);
 }
