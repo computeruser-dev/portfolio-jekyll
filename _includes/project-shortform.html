@@ -3,27 +3,20 @@
         <div class="project-short-small">
             <a href={{include.link}}>
                 <div class="project-short-feature">
-                    <img src={{include.still}}/>
-                    <!--
-                    <div class="project-short-feature-img" 
-                    {% assign str1 = "background-image:url(" %}
-                    {% assign str2 = ")" %}
-                    {% assign strfull = {{str1}} | append: {{include.still}} | append: {{str2}} %}
-                        style= {{ strfull }} ></div>-->
+                    <div class="feature-img-container">
+                        <img src={{include.still}}/>
+                    </div>
                 </div>
             </a>
-            <div class="project-short-gradient">
-                <div class="project-short-title">
-                    
-                </div>
-            </div>
             <div class="project-short-bottom">
                 <div class="project-short-hiddeninfo">
+                    <div>
                     {% for icon in include.icons %}
                         <img class="hidden-icon" src={{icon}}/>
                     {% endfor %}
+                    </div>
                     <div class="project-short-daterange">
-                        {{include.daterange}}
+                        {{include.date}}
                     </div>
                 </div>
                 <div class="project-short-title-bottom">
@@ -32,14 +25,7 @@
                 <div class="project-short-bottom-desc">
                     {{include.desc}}
                 </div>
-                
             </div>
         </div>
     </div>
-    <!--
-    <div class="text-box">
-        <div class="project-short-desc-text">
-            {{include.desc}}
-        </div>
-    </div>-->
 </div>

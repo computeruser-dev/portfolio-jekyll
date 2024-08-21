@@ -8,9 +8,11 @@ $containerMargin:30px;
 
 $cardWidth: 640px;
 $featureHeight: 360px;
+$featureWidth: 640px;
 
 $cardWidthSmall: 512px;
 $featureHeightSmall: 288px;
+$featureWidthSmall: 512px;
 
 $cardMargin-side:5px;
 $cardMargin-top:25px;
@@ -35,57 +37,6 @@ $transitionSpeedProjSize: 0.3s;
 
 $bg-fadein-distance: 440px;
 
-/*
-
-.content-bg-top {
-    top: calc($aboutCardShift + $containerMargin);
-    height:$bg-fadein-distance;
-    background-image: linear-gradient( /* modified from: https://css-tricks.com/easing-linear-gradients/ *//*
-        hsl(48, 100%, 75%, 0) 0%,
-        hsla(48, 100%, 75%, 0.002) calc(100% - 98.2%),
-        hsla(48, 100%, 75%, 0.008) calc(100% - 95.2%),
-        hsla(48, 100%, 75%, 0.021) calc(100% - 91%),
-        hsla(48, 100%, 75%, 0.042) calc(100% - 86.1%),
-        hsla(48, 100%, 75%, 0.075) calc(100% - 80.2%),
-        hsla(48, 100%, 75%, 0.126) calc(100% - 73%),
-        hsla(48, 100%, 75%, 0.194)  calc(100% - 65%),
-        hsla(48, 100%, 75%, 0.278)  calc(100% - 56.5%),
-     /*   hsla(48, 100%, 75%, 0.382)  calc(100% - 47%),
-   /*     hsla(48, 100%, 75%, 0.541)  calc(100% - 34%),
-        hsla(48, 100%, 75%, 0.738)  calc(100% - 19%),
-        hsla(48, 100%, 75%) 100%*//*
-      );
-      @extend .content-bg;
-}
-
-.content-bg-middle {
-    background-color: hsla(48, 100%, 75%, 0.278);
-    height:2200px;
-    @extend .content-bg;
-}
-
-.content-bg-bottom {
-    height:$bg-fadein-distance;
-    bottom: $containerMargin;
-      background-image: linear-gradient(
- /* hsl(48, 100%, 75%) 0%,
-  hsla(48, 100%, 75%, 0.738) 19%,
-  hsla(48, 100%, 75%, 0.541) 34%,
-  hsla(48, 100%, 75%, 0.382) 47%,*//*
-  hsla(48, 100%, 75%, 0.278) 56.5%,
-  hsla(48, 100%, 75%, 0.194) 65%,
-  hsla(48, 100%, 75%, 0.126) 73%,
-  hsla(48, 100%, 75%, 0.075) 80.2%,
-  hsla(48, 100%, 75%, 0.042) 86.1%,
-  hsla(48, 100%, 75%, 0.021) 91%,
-  hsla(48, 100%, 75%, 0.008) 95.2%,
-  hsla(48, 100%, 75%, 0.002) 98.2%,
-  hsla(48, 100%, 75%, 0) 100%
-);
-  @extend .content-bg;
-}
-*/
-
 .home-container {
     margin: calc($aboutCardShift + $containerMargin) auto calc($containerMargin);
 
@@ -95,13 +46,7 @@ $bg-fadein-distance: 440px;
     hsla(48, 100%, 75%, 0.28) calc($bg-fadein-distance),
     hsla(48, 100%, 75%, 0.28) calc(100% - $bg-fadein-distance),
     hsl(48, 100%, 75%, 0) 100%
-    )/*,
-    linear-gradient( to right, 
-    hsl(48, 100%, 75%, 0) 0%,
-    hsla(48, 100%, 75%, 0.3) calc($bg-fadein-distance),
-    hsla(48, 100%, 75%, 0.3) calc(100% - $bg-fadein-distance),
-    hsl(48, 100%, 75%, 0) 100%
-    )*/;
+    );
 }
 
 #home-container {
@@ -204,9 +149,12 @@ $bg-fadein-distance: 440px;
 
 .project-short-feature {
     height:$featureHeightSmall;
-    background-color:$color-bg;
+    width: $featureWidthSmall;
+    /*background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23ffd700' fill-opacity='0.4'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    */background-color: rgb(30,30,30);
 
-    @extend .comic-border;
+    border: 2px solid black;
+    box-shadow: 1px 1px 6px rgba(255,255,255,0.25), 5px 5px black;
 
     position:relative;
     z-index:1;
@@ -216,45 +164,25 @@ $bg-fadein-distance: 440px;
 
 .project-short-container:hover .project-short-feature {
     height:$featureHeight;
+    width: $featureWidth;
 
     transition: $transitionSpeedProjSize;
 }
 
-.project-short-feature img {
-    /*
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-*/
-    max-height: 100%;
-    max-width:100%;
+.feature-img-container img {
+    max-height: $featureHeightSmall;
+    max-width: $featureWidthSmall; 
 
-    position:relative;
-    z-index:10;
+    display:block;
+    margin:0 auto;
+
+    transition: $transitionSpeedProjSize;
 }
+.project-short-container:hover .feature-img-container img {
+    max-height: $featureHeight;
+    max-width: $featureWidth; 
 
-.project-short-gradient {
-    
-    /*
-    height: $titleHeight;
-    margin-top: -$titleHeight;
-    background-image: linear-gradient( /* modified from: https://css-tricks.com/easing-linear-gradients/ */ /*
-        hsl(0, 0%, 0%, 0) 0%,
-        hsla(0, 0%, 0%, 0.002) calc(100% - 98.2%),
-        hsla(0, 0%, 0%, 0.008) calc(100% - 95.2%),
-        hsla(0, 0%, 0%, 0.021) calc(100% - 91%),
-        hsla(0, 0%, 0%, 0.042) calc(100% - 86.1%),
-        hsla(0, 0%, 0%, 0.075) calc(100% - 80.2%),
-        hsla(0, 0%, 0%, 0.126) calc(100% - 73%),
-        hsla(0, 0%, 0%, 0.194)  calc(100% - 65%),
-        hsla(0, 0%, 0%, 0.278)  calc(100% - 56.5%),
-        hsla(0, 0%, 0%, 0.382)  calc(100% - 47%),
-        hsla(0, 0%, 0%, 0.541)  calc(100% - 34%),
-        hsla(0, 0%, 0%, 0.738)  calc(100% - 19%),
-        hsla(0, 0%, 0%) 100%
-      );*/
-      position:relative;
-      z-index:100;
+    transition: $transitionSpeedProjSize;
 }
 
 .project-short-bottom {
@@ -341,7 +269,7 @@ $bg-fadein-distance: 440px;
 }
 .project-short-container:hover .project-short-hiddeninfo {
     visibility: visible;
-    width: calc($cardWidth - $cardWidthSmall - 15px);
+    width: calc($cardWidth - $cardWidthSmall - 10px);
     padding: $titlePadding;
     padding-top: calc($titlePadding + 5px);
     padding-left:0px;
@@ -362,12 +290,11 @@ $bg-fadein-distance: 440px;
 }
 
 .project-short-daterange {
-    float:right;
+    text-align:right;
     font-size:0px;
 
     transition: calc($transitionSpeedProjSize);
 }
-
 .project-short-container:hover .project-short-daterange {
     font-size:inherit;
 

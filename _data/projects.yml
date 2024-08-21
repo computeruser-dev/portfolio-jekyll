@@ -25,6 +25,7 @@
 
   role: Principal Programmer
   daterange: Aug 2023-Present 
+  release: Ongoing
   teamsize: >7
   tools: Unity C#
   awards: Technical Excellence, EDGE Exhibition 2024
@@ -77,6 +78,7 @@
 
   role: Programmer
   daterange: Aug 2024
+  release: Aug 2024
   teamsize: 4
   tools: NotSoTiny, Forth
   awards: 
@@ -116,6 +118,7 @@
 
   role: Full Stack Developer
   daterange: Jul-Aug 2024
+  release: Aug 2024
   teamsize: Solo
   tools: NodeJS, ExpressJS, MongoDB, Handlebars, Unity C#
   awards:
@@ -123,12 +126,13 @@
   icons: 
     - \assets\img\icons\mongodb.png
     - \assets\img\icons\expressjs.png 
-    - \assets\img\icons\nodejs.png
-    - \assets\img\icons\javascript.png
+    - \assets\img\icons\nodejs-jsonly.png
+#    - \assets\img\icons\nodejs.png
+#    - \assets\img\icons\javascript.png
     - \assets\img\icons\html.png
     - \assets\img\icons\css.png
     - \assets\img\icons\csharp.png
-    - \assets\img\icons\unity.png
+#    - \assets\img\icons\unity.png
 
   posts:
   writeup:
@@ -158,6 +162,7 @@
 
   role: Programming Team Lead
   daterange: Jun-Jul 2024
+  release: Jul 2024
   teamsize: 12
   tools: Godot C#
   awards:
@@ -201,6 +206,7 @@
 
   role: Programmer
   daterange: Nov 2023
+  release: Nov 2023
   teamsize: 3
   tools: Godot, Inky
   awards: "First Place: Pizza Jam 10"
@@ -238,6 +244,7 @@
 
   role: Programmer
   daterange: Oct 2023
+  release: Oct 2023
   teamsize: 3
   tools: Godot
   awards:
@@ -277,6 +284,7 @@
 
   role: Programmer
   daterange: Jul 2023
+  release: Jul 2023
   teamsize: 3
   tools: NotSoTiny, Assembly, Java
   awards:
@@ -314,6 +322,7 @@
 
   role: Programmer
   daterange: Jan-May 2023
+  release: May 2023
   teamsize: 3
   tools: Unity C#
   awards:
@@ -354,7 +363,8 @@
   featurelink: https://github.com/cep450/Signal-Creek
 
   role: Programmer, Narrative Designer
-  daterange: Sept-Dec 2022
+  daterange: Sep-Dec 2022
+  release: Dec 2022
   teamsize: 5
   tools: Godot, Inky
   awards:
@@ -395,6 +405,7 @@
 
   role: Programmer, Tools Programmer
   daterange: Jan-Jun 2022
+  release: Jun 2022
   teamsize: 9
   tools: Unity C#
   awards:
@@ -435,6 +446,7 @@
 
   role: Programmer
   daterange: Nov 2021
+  release: Nov 2021
   teamsize: 4
   tools: Unity C#
   awards:
