@@ -18,7 +18,7 @@ $cardMargin-top:25px;
 $cardWidthTotal: calc($cardWidth + ($cardMargin-side * 2));
 
 $aboutCardShift: 40px;
-$aboutCardWidthReduction: 50px;
+$aboutCardWidthReduction: 60px;
 $aboutCardExtraHeight: 120px;
 
 $titleHeight: 130px;
@@ -358,5 +358,18 @@ $bg-fadein-distance: 440px;
 .project-short-container:hover .hidden-icon {
     max-width:32px;
     margin: 0 0 5px 5px;
+    transition: calc($transitionSpeedProjSize);
+}
+
+.project-short-daterange {
+    float:right;
+    font-size:0px;
+
+    transition: calc($transitionSpeedProjSize);
+}
+
+.project-short-container:hover .project-short-daterange {
+    font-size:inherit;
+
     transition: calc($transitionSpeedProjSize);
 }

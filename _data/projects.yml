@@ -1,18 +1,72 @@
-- slug: gmtk-2024
-  title: GMTK 2024
-  desc-short: A game where you program robots to escape orbit. Written in Forth for custom hardware. Fits in 1mb! GMTK Jam 2024.
+# the first project will be shown in the 'featured' area 
+- slug: rope-tool
+  title: Project Rope Tool
+  desc-short: Physics-led action game where you pilot a spaceship using only a grappling hook and an industrial stapler. Wishlist on Steam!
 
-  color-background: yellow
-  color-text: black
-  color-accent: white
+  color-background: 
+  color-text: 
+  color-accent:
 
-  video: https://www.youtube.com/watch?v=Zsx46i_8UQo
-  gif: https://computeruser.neocities.org/images/rope_tool_3_24_gif_discord_optimized.gif
-  still: /assets/img/projects/rope-tool/1.png
+  video: 
+  gif: 
+  still: /assets/img/projects/rope-tool/rt-arc.jpg
+
+  images: 
+    - /assets/img/projects/rope-tool/rt-asteroid-grapple.jpg
+    - /assets/img/projects/rope-tool/rt-arc.jpg
+    - /assets/img/projects/rope-tool/rt-demobot-dive.jpg
+
+  repo: 
+  itchlink: https://xandergoodwin.itch.io/rope-tool
+  steamlink: https://store.steampowered.com/app/2958730/Project_Rope_Tool/
+  otherlink:
+
+  featurelink: https://store.steampowered.com/app/2958730/Project_Rope_Tool/
+
+  role: Principal Programmer
+  daterange: Aug 2023-Present 
+  teamsize: >7
+  tools: Unity C#
+  awards: Technical Excellence, EDGE Exhibition 2024
+
+  icons: 
+    - \assets\img\icons\itch.png
+    - \assets\img\icons\steam.png 
+    - \assets\img\icons\unity.png 
+    - \assets\img\icons\csharp.png
+
+  posts:
+  writeup:
+
+
+
+
+
+
+
+
+
+
+
+
+
+- slug: moongrave
+  title: Probing Moongrave
+  desc-short: A game where you program robots to survey the dead moon below. Written in FORTH for custom hardware. Fits in 1mb! GMTK Jam 2024.
+
+  color-background: 
+  color-text: 
+  color-accent: 
+
+  video: 
+  gif: 
+  still: assets/img/projects/moongrave/mg-introscreen.png
 
   images:
-   - "https://img.itch.zone/aW1nLzE0MDY4NTQ5LnBuZw==/315x250%23c/HY1sb1.png"
-   - "https://img.itch.zone/aW1nLzE0MDY4NTQ5LnBuZw==/315x250%23c/HY1sb1.png"
+   - "assets/img/projects/moongrave/mg-introscreen.png"
+   - "assets/img/projects/moongrave/mg-codescreen.png"
+   - "assets/img/projects/moongrave/mg-artifacts.png"
+   - "assets/img/projects/moongrave/mg-ending-outstanding.png"
 
   repo: https://github.com/MechaFinch/GMTK-Game-Jam-2024
   itchlink: https://computeruser.itch.io/GMTK-2024
@@ -33,7 +87,7 @@
     - \assets\img\icons\forth.png
 
   posts: 
-  writeup: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  writeup: 
 
 
 
@@ -70,6 +124,9 @@
     - \assets\img\icons\mongodb.png
     - \assets\img\icons\expressjs.png 
     - \assets\img\icons\nodejs.png
+    - \assets\img\icons\javascript.png
+    - \assets\img\icons\html.png
+    - \assets\img\icons\css.png
     - \assets\img\icons\csharp.png
     - \assets\img\icons\unity.png
 
@@ -100,7 +157,7 @@
   featurelink: https://computeruser.itch.io/carbonbusters
 
   role: Programming Team Lead
-  daterange: Jun-Jul 2023
+  daterange: Jun-Jul 2024
   teamsize: 12
   tools: Godot C#
   awards:
@@ -115,44 +172,7 @@
 
 
 
-- slug: rope-tool
-  title: Project Rope Tool
-  desc-short: Physics-led action game where you pilot a spaceship using only a grappling hook and an industrial stapler. Wishlist on Steam!
 
-  color-background: 
-  color-text: 
-  color-accent:
-
-  video: 
-  gif: 
-  still: /assets/img/projects/rope-tool/rt-arc.jpg
-
-  images: 
-    - /assets/img/projects/rope-tool/rt-asteroid-grapple.jpg
-    - /assets/img/projects/rope-tool/rt-arc.jpg
-    - /assets/img/projects/rope-tool/rt-demobot-dive.jpg
-
-  repo: 
-  itchlink: https://xandergoodwin.itch.io/rope-tool
-  steamlink: https://store.steampowered.com/app/2958730/Project_Rope_Tool/
-  otherlink:
-
-  featurelink: https://store.steampowered.com/app/2958730/Project_Rope_Tool/
-
-  role: Principal Programmer
-  daterange: Aug 2023-Present 
-  teamsize: Team of >7
-  tools: Unity C#
-  awards: Technical Excellence, EDGE Exhibition 2024
-
-  icons: 
-    - \assets\img\icons\itch.png
-    - \assets\img\icons\steam.png 
-    - \assets\img\icons\unity.png 
-    - \assets\img\icons\csharp.png
-
-  posts:
-  writeup:
 
 
  
@@ -256,7 +276,7 @@
   featurelink: https://mechafinch.itch.io/repetitive-manual-labor-factory
 
   role: Programmer
-  daterange:  
+  daterange: Jul 2023
   teamsize: 3
   tools: NotSoTiny, Assembly, Java
   awards:
@@ -333,9 +353,9 @@
 
   featurelink: https://github.com/cep450/Signal-Creek
 
-  role: Programmer, Designer
+  role: Programmer, Narrative Designer
   daterange: Sept-Dec 2022
-  teamsize: 
+  teamsize: 5
   tools: Godot, Inky
   awards:
 
@@ -373,9 +393,9 @@
 
   featurelink: https://computeruser.itch.io/tokyo-rhythm-fighter
 
-  role: 
-  daterange:  
-  teamsize: 
+  role: Programmer, Tools Programmer
+  daterange: Jan-Jun 2022
+  teamsize: 9
   tools: Unity C#
   awards:
 

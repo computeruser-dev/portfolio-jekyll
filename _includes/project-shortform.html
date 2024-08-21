@@ -22,6 +22,9 @@
                     {% for icon in include.icons %}
                         <img class="hidden-icon" src={{icon}}/>
                     {% endfor %}
+                    <div class="project-short-daterange">
+                        {{include.daterange}}
+                    </div>
                 </div>
                 <div class="project-short-title-bottom">
                     {{include.title}}

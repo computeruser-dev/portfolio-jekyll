@@ -1,4 +1,10 @@
  
+#- link: ""
+#  icon: "/assets/img/icons/blog.png"
+#  title: "Blog/Devlog"  
+#  short: "" 
+#  full: ""
+
 - link: "https://computeruser.itch.io/"
   icon: "/assets/img/icons/itch.png"
   title: "Games on Itch.io"
@@ -23,9 +29,9 @@
   short: "email" 
   full: "email: cep450@nyu.edu"
 
-- link: ""
-  icon: "/assets/img/icons/email.png"
-  title: "Follow with RSS!"  
-  short: "" 
-  full: ""
+#- link: ""
+#  icon: "/assets/img/icons/rss.png"
+#  title: "Follow with RSS!"  
+#  short: "" 
+#  full: ""
 
