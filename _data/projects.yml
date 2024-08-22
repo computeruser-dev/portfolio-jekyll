@@ -105,9 +105,9 @@
 
   video: 
   gif: 
-  still: /assets/img/projects/rope-tool/rt-arc.jpg
+  still: \assets\img\projects\rope-tool-database\rtdb-gameview.png
 
-  images: 
+  images: \assets\img\projects\rope-tool-database\rtdb-gameview.png
 
   repo: https://github.com/cep450/Rope-Tool-Database
   itchlink: 
