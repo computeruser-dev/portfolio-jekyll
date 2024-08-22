@@ -9,19 +9,19 @@
 
   video: 
   gif: 
-  still: /assets/img/projects/rope-tool/rt-arc.jpg
+  still: "assets/img/projects/rope-tool/rt-arc.jpg"
 
   images: 
-    - /assets/img/projects/rope-tool/rt-asteroid-grapple.jpg
-    - /assets/img/projects/rope-tool/rt-arc.jpg
-    - /assets/img/projects/rope-tool/rt-demobot-dive.jpg
+    - "assets/img/projects/rope-tool/rt-asteroid-grapple.jpg"
+    - "assets/img/projects/rope-tool/rt-arc.jpg"
+    - "assets/img/projects/rope-tool/rt-demobot-dive.jpg"
 
   repo: 
   itchlink: https://xandergoodwin.itch.io/rope-tool
   steamlink: https://store.steampowered.com/app/2958730/Project_Rope_Tool/
   otherlink:
 
-  featurelink: https://store.steampowered.com/app/2958730/Project_Rope_Tool/
+  featurelink: "https://store.steampowered.com/app/2958730/Project_Rope_Tool/"
 
   role: Principal Programmer
   daterange: Aug 2023-Present 
@@ -31,13 +31,13 @@
   awards: "Technical Excellence, EDGE Exhibition 2024"
 
   icons: 
-    - img: \assets\img\icons\itch.png 
+    - img: "assets/img/icons/itch.png"
       desc: "Released&#32;on&#32;Itch.io "
-    - img: \assets\img\icons\steam.png
+    - img: "assets/img/icons/steam.png"
       desc: "Releasing&#32;on&#32;Steam "
-    - img: \assets\img\icons\unity.png 
+    - img: "assets/img/icons/unity.png"
       desc: "Unity "
-    - img: \assets\img\icons\csharp.png
+    - img: "assets/img/icons/csharp.png"
       desc: "C# "
 
   iconsdescs: 
@@ -94,11 +94,11 @@
   awards: 
 
   icons: 
-    - img: \assets\img\icons\itch.png 
+    - img: assets/img/icons/itch.png 
       desc: "Released&#32;on&#32;Itch.io "
-    - img: \assets\img\icons\forth.png 
+    - img: assets/img/icons/forth.png 
       desc: "FORTH "
-    - img: \assets\img\icons\NST.png
+    - img: assets/img/icons/NST.png
       desc: "NotSoTiny "
 
   posts: 
@@ -118,9 +118,9 @@
 
   video: 
   gif: 
-  still: \assets\img\projects\rope-tool-database\rtdb-gameview.png
+  still: assets/img/projects/rope-tool-database/rtdb-gameview.png
 
-  images: \assets\img\projects\rope-tool-database\rtdb-gameview.png
+  images: assets/img/projects/rope-tool-database/rtdb-gameview.png
 
   repo: https://github.com/cep450/Rope-Tool-Database
   itchlink: 
@@ -137,20 +137,20 @@
   awards:
 
   icons: 
-#    - \assets\img\icons\nodejs.png
-#    - \assets\img\icons\javascript.png
-#    - \assets\img\icons\unity.png
-    - img: \assets\img\icons\nodejs-jsonly.png 
+#    - assets/img/icons/nodejs.png
+#    - assets/img/icons/javascript.png
+#    - assets/img/icons/unity.png
+    - img: assets/img/icons/nodejs-jsonly.png 
       desc: "NodeJS "
-    - img: \assets\img\icons\expressjs.png
+    - img: assets/img/icons/expressjs.png
       desc: "ExpressJS "
-    - img: \assets\img\icons\mongodb.png 
+    - img: assets/img/icons/mongodb.png 
       desc: "MongoDB "
-    - img: \assets\img\icons\HTML.png 
+    - img: assets/img/icons/HTML.png 
       desc: "HTML "
-    - img: \assets\img\icons\css.png
+    - img: assets/img/icons/css.png
       desc: "CSS "
-    - img: \assets\img\icons\csharp.png
+    - img: assets/img/icons/csharp.png
       desc: "C# "
 
 
@@ -169,13 +169,13 @@
 
   video: https://www.youtube.com/watch?v=stL8oeAqbA0
   gif: 
-  still: assets\img\projects\carbonbusters\cb-day-bikelane-car.png
+  still: assets/img/projects/carbonbusters/cb-day-bikelane-car.png
 
   images: 
-  - assets\img\projects\carbonbusters\cb-cars.png
-  - assets\img\projects\carbonbusters\cb-day-bikelane-car.png
-  - assets\img\projects\carbonbusters\cb-night-cyclists.png
-  - assets\img\projects\carbonbusters\cb-sidewalk-people.png
+  - assets/img/projects/carbonbusters/cb-cars.png
+  - assets/img/projects/carbonbusters/cb-day-bikelane-car.png
+  - assets/img/projects/carbonbusters/cb-night-cyclists.png
+  - assets/img/projects/carbonbusters/cb-sidewalk-people.png
 
   repo: https://github.com/cep450/IndieCade-Climate-Jam-2024
   itchlink: https://computeruser.itch.io/carbonbusters
@@ -192,11 +192,11 @@
   awards:
 
   icons: 
-    - img: \assets\img\icons\itch.png 
+    - img: assets/img/icons/itch.png 
       desc: "Released&#32;on&#32;Itch.io "
-    - img: \assets\img\icons\godot.png
+    - img: assets/img/icons/godot.png
       desc: "Godot&#32;4 "
-    - img: \assets\img\icons\csharp.png
+    - img: assets/img/icons/csharp.png
       desc: "C# "
 
   posts:
@@ -218,11 +218,11 @@
 
   video: 
   gif: 
-  still: /assets/img/projects/poker-night/pn-planet.png
+  still: assets/img/projects/poker-night/pn-planet.png
 
   images: 
-    - /assets/img/projects/poker-night/pn-planet.png
-    - /assets/img/projects/poker-night/pn-ai.png
+    - assets/img/projects/poker-night/pn-planet.png
+    - assets/img/projects/poker-night/pn-ai.png
 
   repo: https://github.com/courtesyy/Pbouxhkiir-Night
   itchlink: https://courtesy.itch.io/pbouxhkiir-night
@@ -239,11 +239,11 @@
   awards: "First Place: Pizza Jam 10"
 
   icons: 
-    - img: \assets\img\icons\itch.png 
+    - img: assets/img/icons/itch.png 
       desc: "Released&#32;on&#32;Itch.io "
-    - img: \assets\img\icons\godot.png
+    - img: assets/img/icons/godot.png
       desc: "Godot&#32;3 "
-    - img: \assets\img\icons\inky.png
+    - img: assets/img/icons/inky.png
       desc: "Inky "
 
   posts:
@@ -261,10 +261,10 @@
 
   video: 
   gif: 
-  still: \assets\img\projects\transmission\tm.png
+  still: assets/img/projects/transmission/tm.png
 
   images: 
-  - \assets\img\projects\transmission\tm.png
+  - assets/img/projects/transmission/tm.png
 
   repo: 
   itchlink: https://computeruser.itch.io/transmission-received
@@ -281,9 +281,9 @@
   awards:
 
   icons :
-    - img: \assets\img\icons\itch.png 
+    - img: assets/img/icons/itch.png 
       desc: "Released&#32;on&#32;Itch.io "
-    - img: \assets\img\icons\godot.png
+    - img: assets/img/icons/godot.png
       desc: "Godot&#32;3 "
 
   posts:
@@ -301,12 +301,12 @@
 
   video: 
   gif: 
-  still: /assets/img/projects/manual-labor-factory/mlf-thermostats.png
+  still: assets/img/projects/manual-labor-factory/mlf-thermostats.png
 
   images: 
-    - /assets/img/projects/manual-labor-factory/mlf-repeat.png
-    - /assets/img/projects/manual-labor-factory/mlf-thermostats.png
-    - /assets/img/projects/manual-labor-factory/mlf-draw.png
+    - assets/img/projects/manual-labor-factory/mlf-repeat.png
+    - assets/img/projects/manual-labor-factory/mlf-thermostats.png
+    - assets/img/projects/manual-labor-factory/mlf-draw.png
 
   repo: https://github.com/MechaFinch/GTMK-jam-2023
   itchlink: https://mechafinch.itch.io/repetitive-manual-labor-factory
@@ -323,11 +323,11 @@
   awards:
 
   icons: 
-    - img: \assets\img\icons\itch.png 
+    - img: assets/img/icons/itch.png 
       desc: "Released&#32;on&#32;Itch.io "
-    - img: \assets\img\icons\java.png 
+    - img: assets/img/icons/java.png 
       desc: "Java "
-    - img: \assets\img\icons\NST.png
+    - img: assets/img/icons/NST.png
       desc: "NotSoTiny "
 
   posts:
@@ -345,10 +345,10 @@
 
   video: 
   gif: 
-  still: \assets\img\projects\terrarium\terr.png
+  still: assets/img/projects/terrarium/terr.png
 
   images: 
-  - \assets\img\projects\terrarium\terr.png
+  - assets/img/projects/terrarium/terr.png
 
   repo: https://github.com/cep450/Terrarium
   itchlink: https://computeruser.itch.io/gnomes
@@ -365,11 +365,11 @@
   awards:
 
   icons: 
-    - img: \assets\img\icons\itch.png 
+    - img: assets/img/icons/itch.png 
       desc: "Released&#32;on&#32;Itch.io "
-    - img: \assets\img\icons\unity.png 
+    - img: assets/img/icons/unity.png 
       desc: "Unity "
-    - img: \assets\img\icons\csharp.png
+    - img: assets/img/icons/csharp.png
       desc: "C# "
 
   posts:
@@ -387,13 +387,13 @@
 
   video: 
   gif: 
-  still: assets\img\projects\sc\sc-dialogue-multi.jpg
+  still: assets/img/projects/sc/sc-dialogue-multi.jpg
 
   images: 
-    - assets\img\projects\sc\sc-standing-2.jpg
-    - assets\img\projects\sc\sc-dialogue-multi.jpg
-    - assets\img\projects\sc\sc-standing-1.jpg
-    - assets\img\projects\sc\sc-dialogue-oneline.jpg
+    - assets/img/projects/sc/sc-standing-2.jpg
+    - assets/img/projects/sc/sc-dialogue-multi.jpg
+    - assets/img/projects/sc/sc-standing-1.jpg
+    - assets/img/projects/sc/sc-dialogue-oneline.jpg
 
   repo: https://github.com/cep450/Signal-Creek
   itchlink: 
@@ -410,11 +410,11 @@
   awards:
 
   icons: 
-    - img: \assets\img\icons\steam.png 
+    - img: assets/img/icons/steam.png 
       desc: "Released&#32;on&#32;Steam "
-    - img: \assets\img\icons\godot.png 
+    - img: assets/img/icons/godot.png 
       desc: "Godot 3 "
-    - img: \assets\img\icons\inky.png
+    - img: assets/img/icons/inky.png
       desc: "Inky "
 
   posts:
@@ -432,12 +432,12 @@
 
   video: https://www.youtube.com/watch?v=TyaU0MH_FPI
   gif: 
-  still: assets\img\projects\tokyo-rhythm-fighter\trf-perfect.png
+  still: assets/img/projects/tokyo-rhythm-fighter/trf-perfect.png
 
   images: 
-    - assets\img\projects\tokyo-rhythm-fighter\trf-perfect.png
-    - assets\img\projects\tokyo-rhythm-fighter\trf-hold.png
-    - assets\img\projects\tokyo-rhythm-fighter\trf-start.png
+    - assets/img/projects/tokyo-rhythm-fighter/trf-perfect.png
+    - assets/img/projects/tokyo-rhythm-fighter/trf-hold.png
+    - assets/img/projects/tokyo-rhythm-fighter/trf-start.png
 
   repo: https://github.com/twinsrule527/TOKYO-RHYTHM-FIGHTER
   itchlink: https://computeruser.itch.io/tokyo-rhythm-fighter
@@ -454,11 +454,11 @@
   awards:
 
   icons: 
-    - img: \assets\img\icons\itch.png 
+    - img: assets/img/icons/itch.png 
       desc: "Released&#32;on&#32;Itch.io "
-    - img: \assets\img\icons\unity.png 
+    - img: assets/img/icons/unity.png 
       desc: "Unity "
-    - img: \assets\img\icons\csharp.png
+    - img: assets/img/icons/csharp.png
       desc: "C# "
 
   posts:
@@ -476,12 +476,12 @@
 
   video: https://www.youtube.com/watch?v=oRfa5B3XnU0
   gif: 
-  still: assets\img\projects\luna\luna-switch-up-the-music.png
+  still: assets/img/projects/luna/luna-switch-up-the-music.png
 
   images: 
-    - assets\img\projects\luna\luna-switch-up-the-music.png
-    - assets\img\projects\luna\luna-bands.png
-    - assets\img\projects\luna\luna-talking-heads.png
+    - assets/img/projects/luna/luna-switch-up-the-music.png
+    - assets/img/projects/luna/luna-bands.png
+    - assets/img/projects/luna/luna-talking-heads.png
 
   repo: https://github.com/cep450/LUNA
   itchlink: https://computeruser.itch.io/luna
@@ -498,11 +498,11 @@
   awards:
 
   icons: 
-    - img: \assets\img\icons\itch.png 
+    - img: assets/img/icons/itch.png 
       desc: "Released&#32;on&#32;Itch.io "
-    - img: \assets\img\icons\unity.png 
+    - img: assets/img/icons/unity.png 
       desc: "Unity "
-    - img: \assets\img\icons\csharp.png
+    - img: assets/img/icons/csharp.png
       desc: "C# "
 
   posts:
