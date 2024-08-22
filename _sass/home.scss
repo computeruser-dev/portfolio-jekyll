@@ -21,7 +21,7 @@ $cardWidthTotal: calc($cardWidth + ($cardMargin-side * 2));
 
 $aboutCardShift: 40px;
 $aboutCardWidthReduction: 60px;
-$aboutCardExtraHeight: 120px;
+$aboutCardExtraHeight: 135px;
 
 $titleHeight: 130px;
 $descHeight: 80px;
@@ -77,14 +77,6 @@ $bg-fadein-distance: 440px;
     }
 }
 
-.big-title {
-    font-size:36px;
-    font-weight:bold;
-    float:right;
-    height: $aboutCardShift;
-    margin-top:-$aboutCardShift;
-}
-
 .home-card {
     width: $cardWidth;
     height: $cardHeight;
@@ -114,19 +106,36 @@ $bg-fadein-distance: 440px;
     transform: rotate(1deg);
 }
 
-/* featured project */
-.featured {
-    @extend .text-box;
-    transform: rotate(1deg);
-    height: calc($cardHeight + $aboutCardExtraHeight);
-    width: $cardWidth;
-    position:fixed;
-    top:calc($aboutCardShift + $containerMargin);
-}
-.featured-untilt {
-    transform:rotate(-1deg);
+/* big title not displayed if one column */ 
+.big-title {
+    display:none;
 }
 
+/* featured project and big title-- only displayed if more than 1 column */
+@media only screen and (min-width: calc(($cardWidthTotal * 2)/* + (containerMargin * 2)*/)) {
+    .featured {
+        background-color:#ffe68075;
+        border: 2px dashed gold;
+        transform: rotate(1deg);
+        height: calc(($cardMargin-top * 2) + $cardHeight + $titlePadding - 2px);
+        width: calc($cardWidth - 5px);
+        position:absolute;
+        top:calc($aboutCardShift + $containerMargin + 31px);
+        left: calc(($cardMargin-side * 2) + ($aboutCardWidthReduction * 2) + $cardWidth);
+    }
+    .featured-untilt {
+        transform:rotate(-1deg);
+    }
+
+    .big-title {
+        display:inherit;
+        font-size:36px;
+        font-weight:bold;
+        float:right;
+        height: $aboutCardShift;
+        margin-top:-$aboutCardShift;
+    }
+}
 
 .project-short-container {
     @extend .home-card;
@@ -289,7 +298,8 @@ $bg-fadein-distance: 440px;
 }
 .project-short-container:hover .hidden-icon {
     max-width:32px;
-    margin: 0 0 5px 5px;
+    max-height:32px;
+    margin: 0 0 6px 5px;
     transition: calc($transitionSpeedProjSize);
 }
 

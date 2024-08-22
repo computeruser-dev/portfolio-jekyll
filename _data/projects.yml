@@ -96,10 +96,10 @@
   icons: 
     - img: \assets\img\icons\itch.png 
       desc: "Released&#32;on&#32;Itch.io "
-    - img: \assets\img\icons\NST.png
-      desc: "NotSoTiny "
     - img: \assets\img\icons\forth.png 
       desc: "FORTH "
+    - img: \assets\img\icons\NST.png
+      desc: "NotSoTiny "
 
   posts: 
   writeup: 
@@ -140,18 +140,19 @@
 #    - \assets\img\icons\nodejs.png
 #    - \assets\img\icons\javascript.png
 #    - \assets\img\icons\unity.png
-    - img: \assets\img\icons\mongodb.png 
-      desc: "MongoDB "
-    - img: \assets\img\icons\expressjs.png
-      desc: "ExpressJS "
     - img: \assets\img\icons\nodejs-jsonly.png 
       desc: "NodeJS "
+    - img: \assets\img\icons\expressjs.png
+      desc: "ExpressJS "
+    - img: \assets\img\icons\mongodb.png 
+      desc: "MongoDB "
     - img: \assets\img\icons\HTML.png 
       desc: "HTML "
     - img: \assets\img\icons\css.png
       desc: "CSS "
     - img: \assets\img\icons\csharp.png
       desc: "C# "
+
 
   posts:
   writeup:
@@ -324,10 +325,10 @@
   icons: 
     - img: \assets\img\icons\itch.png 
       desc: "Released&#32;on&#32;Itch.io "
-    - img: \assets\img\icons\NST.png
-      desc: "NotSoTiny "
     - img: \assets\img\icons\java.png 
       desc: "Java "
+    - img: \assets\img\icons\NST.png
+      desc: "NotSoTiny "
 
   posts:
   writeup:
