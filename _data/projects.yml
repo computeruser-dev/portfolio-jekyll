@@ -149,9 +149,13 @@
 
   video: https://www.youtube.com/watch?v=stL8oeAqbA0
   gif: 
-  still: 
+  still: assets\img\projects\carbonbusters\cb-day-bikelane-car.png
 
   images: 
+  - assets\img\projects\carbonbusters\cb-cars.png
+  - assets\img\projects\carbonbusters\cb-day-bikelane-car.png
+  - assets\img\projects\carbonbusters\cb-night-cyclists.png
+  - assets\img\projects\carbonbusters\cb-sidewalk-people.png
 
   repo: https://github.com/cep450/IndieCade-Climate-Jam-2024
   itchlink: https://computeruser.itch.io/carbonbusters
@@ -183,7 +187,7 @@
  
 - slug: pbouxhkiir-night
   title: Pbouxhkiir Night on the Primox Alpha
-  desc-short: Wager the fate of the Earth in this narrative sci-fi comedy game. Won First Place in Pizza Jam 10.
+  desc-short: Wager the fate of the Earth in this narrative sci-fi comedy game. Won First Place in Pizza Jam 10!
 
   color-background: 
   color-text: 
@@ -231,9 +235,10 @@
 
   video: 
   gif: 
-  still: 
+  still: \assets\img\projects\transmission\tm.png
 
   images: 
+  - \assets\img\projects\transmission\tm.png
 
   repo: 
   itchlink: https://computeruser.itch.io/transmission-received
@@ -309,9 +314,10 @@
 
   video: 
   gif: 
-  still: 
+  still: \assets\img\projects\terrarium\terr.png
 
   images: 
+  - \assets\img\projects\terrarium\terr.png
 
   repo: https://github.com/cep450/Terrarium
   itchlink: https://computeruser.itch.io/gnomes

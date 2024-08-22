@@ -30,12 +30,19 @@ body {
     box-shadow: 5px 5px black;
 }
 
+$text-box-p-margin: 16px;
 .text-box {
     background-color: $color-bg-textbox;
     margin:20px;
     padding:25px;
     border: 1px dashed gold;
     font-size:17px;
+}
+.text-box-multiparagraph-container {
+    margin:-$text-box-p-margin 0px;
+}
+.text-box p {
+    margin:$text-box-p-margin 0px;
 }
 
 

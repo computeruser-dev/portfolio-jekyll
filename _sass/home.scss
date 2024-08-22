@@ -118,6 +118,10 @@ $bg-fadein-distance: 440px;
 .featured {
     @extend .text-box;
     transform: rotate(1deg);
+    height: calc($cardHeight + $aboutCardExtraHeight);
+    width: $cardWidth;
+    position:fixed;
+    top:calc($aboutCardShift + $containerMargin);
 }
 .featured-untilt {
     transform:rotate(-1deg);
@@ -290,6 +294,7 @@ $bg-fadein-distance: 440px;
 }
 
 .project-short-daterange {
+    clear: both;
     text-align:right;
     font-size:0px;
 
