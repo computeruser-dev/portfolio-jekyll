@@ -9,7 +9,7 @@
 
   video: 
   gif: 
-  still: "assets/img/projects/rope-tool/rt-arc.jpg"
+  still: "assets/img/projects/rope-tool/rt-arc.jpg "
 
   images: 
     - "assets/img/projects/rope-tool/rt-asteroid-grapple.jpg"
@@ -71,7 +71,7 @@
 
   video: 
   gif: 
-  still: assets/img/projects/moongrave/mg-introscreen.png
+  still: "assets/img/projects/moongrave/mg-introscreen.png "
 
   images:
    - "assets/img/projects/moongrave/mg-introscreen.png"
@@ -118,7 +118,7 @@
 
   video: 
   gif: 
-  still: assets/img/projects/rope-tool-database/rtdb-gameview.png
+  still: "assets/img/projects/rope-tool-database/rtdb-gameview.png "
 
   images: assets/img/projects/rope-tool-database/rtdb-gameview.png
 
@@ -146,7 +146,7 @@
       desc: "ExpressJS "
     - img: assets/img/icons/mongodb.png 
       desc: "MongoDB "
-    - img: assets/img/icons/HTML.png 
+    - img: assets/img/icons/html.png 
       desc: "HTML "
     - img: assets/img/icons/css.png
       desc: "CSS "
@@ -169,7 +169,7 @@
 
   video: https://www.youtube.com/watch?v=stL8oeAqbA0
   gif: 
-  still: assets/img/projects/carbonbusters/cb-day-bikelane-car.png
+  still: "assets/img/projects/carbonbusters/cb-day-bikelane-car.png "
 
   images: 
   - assets/img/projects/carbonbusters/cb-cars.png
@@ -218,7 +218,7 @@
 
   video: 
   gif: 
-  still: assets/img/projects/poker-night/pn-planet.png
+  still: "assets/img/projects/poker-night/pn-planet.png "
 
   images: 
     - assets/img/projects/poker-night/pn-planet.png
@@ -261,7 +261,7 @@
 
   video: 
   gif: 
-  still: assets/img/projects/transmission/tm.png
+  still: "assets/img/projects/transmission/tm.png "
 
   images: 
   - assets/img/projects/transmission/tm.png
@@ -301,7 +301,7 @@
 
   video: 
   gif: 
-  still: assets/img/projects/manual-labor-factory/mlf-thermostats.png
+  still: "assets/img/projects/manual-labor-factory/mlf-thermostats.png "
 
   images: 
     - assets/img/projects/manual-labor-factory/mlf-repeat.png
@@ -345,7 +345,7 @@
 
   video: 
   gif: 
-  still: assets/img/projects/terrarium/terr.png
+  still: "assets/img/projects/terrarium/terr.png "
 
   images: 
   - assets/img/projects/terrarium/terr.png
@@ -387,7 +387,7 @@
 
   video: 
   gif: 
-  still: assets/img/projects/sc/sc-dialogue-multi.jpg
+  still: "assets/img/projects/sc/sc-dialogue-multi.jpg "
 
   images: 
     - assets/img/projects/sc/sc-standing-2.jpg
@@ -432,7 +432,7 @@
 
   video: https://www.youtube.com/watch?v=TyaU0MH_FPI
   gif: 
-  still: assets/img/projects/tokyo-rhythm-fighter/trf-perfect.png
+  still: "assets/img/projects/tokyo-rhythm-fighter/trf-perfect.png "
 
   images: 
     - assets/img/projects/tokyo-rhythm-fighter/trf-perfect.png
@@ -476,7 +476,7 @@
 
   video: https://www.youtube.com/watch?v=oRfa5B3XnU0
   gif: 
-  still: assets/img/projects/luna/luna-switch-up-the-music.png
+  still: "assets/img/projects/luna/luna-switch-up-the-music.png "
 
   images: 
     - assets/img/projects/luna/luna-switch-up-the-music.png
