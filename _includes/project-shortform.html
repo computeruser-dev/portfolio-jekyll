@@ -12,7 +12,7 @@
                 <div class="project-short-hiddeninfo">
                     <div>
                     {% for icon in include.icons %}
-                        <img class="hidden-icon" src={{icon}}/>
+                        <img class="hidden-icon" src={{icon.img}} title={{icon.desc}}/>
                     {% endfor %}
                     </div>
                     <div class="project-short-daterange">

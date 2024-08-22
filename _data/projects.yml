@@ -26,15 +26,25 @@
   role: Principal Programmer
   daterange: Aug 2023-Present 
   release: Ongoing
-  teamsize: >7
+  teamsize: ">7"
   tools: Unity C#
-  awards: Technical Excellence, EDGE Exhibition 2024
+  awards: "Technical Excellence, EDGE Exhibition 2024"
 
   icons: 
-    - \assets\img\icons\itch.png
-    - \assets\img\icons\steam.png 
-    - \assets\img\icons\unity.png 
-    - \assets\img\icons\csharp.png
+    - img: \assets\img\icons\itch.png 
+      desc: "Released&#32;on&#32;Itch.io "
+    - img: \assets\img\icons\steam.png
+      desc: "Releasing&#32;on&#32;Steam "
+    - img: \assets\img\icons\unity.png 
+      desc: "Unity "
+    - img: \assets\img\icons\csharp.png
+      desc: "C# "
+
+  iconsdescs: 
+    - Released on Itch.io 
+    - Releasing on Steam
+    - Unity
+    - C#
 
   posts:
   writeup:
@@ -84,9 +94,12 @@
   awards: 
 
   icons: 
-    - \assets\img\icons\itch.png
-    - \assets\img\icons\NST.png 
-    - \assets\img\icons\forth.png
+    - img: \assets\img\icons\itch.png 
+      desc: "Released&#32;on&#32;Itch.io "
+    - img: \assets\img\icons\NST.png
+      desc: "NotSoTiny "
+    - img: \assets\img\icons\forth.png 
+      desc: "FORTH "
 
   posts: 
   writeup: 
@@ -124,15 +137,21 @@
   awards:
 
   icons: 
-    - \assets\img\icons\mongodb.png
-    - \assets\img\icons\expressjs.png 
-    - \assets\img\icons\nodejs-jsonly.png
 #    - \assets\img\icons\nodejs.png
 #    - \assets\img\icons\javascript.png
-    - \assets\img\icons\html.png
-    - \assets\img\icons\css.png
-    - \assets\img\icons\csharp.png
 #    - \assets\img\icons\unity.png
+    - img: \assets\img\icons\mongodb.png 
+      desc: "MongoDB "
+    - img: \assets\img\icons\expressjs.png
+      desc: "ExpressJS "
+    - img: \assets\img\icons\nodejs-jsonly.png 
+      desc: "NodeJS "
+    - img: \assets\img\icons\HTML.png 
+      desc: "HTML "
+    - img: \assets\img\icons\css.png
+      desc: "CSS "
+    - img: \assets\img\icons\csharp.png
+      desc: "C# "
 
   posts:
   writeup:
@@ -172,9 +191,12 @@
   awards:
 
   icons: 
-    - \assets\img\icons\itch.png
-    - \assets\img\icons\godot.png 
-    - \assets\img\icons\csharp.png
+    - img: \assets\img\icons\itch.png 
+      desc: "Released&#32;on&#32;Itch.io "
+    - img: \assets\img\icons\godot.png
+      desc: "Godot&#32;4 "
+    - img: \assets\img\icons\csharp.png
+      desc: "C# "
 
   posts:
   writeup:
@@ -216,9 +238,12 @@
   awards: "First Place: Pizza Jam 10"
 
   icons: 
-    - \assets\img\icons\itch.png
-    - \assets\img\icons\godot.png
-    - \assets\img\icons\inky.png
+    - img: \assets\img\icons\itch.png 
+      desc: "Released&#32;on&#32;Itch.io "
+    - img: \assets\img\icons\godot.png
+      desc: "Godot&#32;3 "
+    - img: \assets\img\icons\inky.png
+      desc: "Inky "
 
   posts:
   writeup:
@@ -255,8 +280,10 @@
   awards:
 
   icons :
-    - \assets\img\icons\itch.png
-    - \assets\img\icons\godot.png
+    - img: \assets\img\icons\itch.png 
+      desc: "Released&#32;on&#32;Itch.io "
+    - img: \assets\img\icons\godot.png
+      desc: "Godot&#32;3 "
 
   posts:
   writeup:
@@ -295,9 +322,12 @@
   awards:
 
   icons: 
-    - \assets\img\icons\itch.png
-    - \assets\img\icons\NST.png 
-    - \assets\img\icons\java.png
+    - img: \assets\img\icons\itch.png 
+      desc: "Released&#32;on&#32;Itch.io "
+    - img: \assets\img\icons\NST.png
+      desc: "NotSoTiny "
+    - img: \assets\img\icons\java.png 
+      desc: "Java "
 
   posts:
   writeup:
@@ -334,9 +364,12 @@
   awards:
 
   icons: 
-    - \assets\img\icons\itch.png
-    - \assets\img\icons\unity.png 
-    - \assets\img\icons\csharp.png
+    - img: \assets\img\icons\itch.png 
+      desc: "Released&#32;on&#32;Itch.io "
+    - img: \assets\img\icons\unity.png 
+      desc: "Unity "
+    - img: \assets\img\icons\csharp.png
+      desc: "C# "
 
   posts:
   writeup:
@@ -376,9 +409,12 @@
   awards:
 
   icons: 
-    - \assets\img\icons\steam.png 
-    - \assets\img\icons\godot.png 
-    - \assets\img\icons\inky.png
+    - img: \assets\img\icons\steam.png 
+      desc: "Released&#32;on&#32;Steam "
+    - img: \assets\img\icons\godot.png 
+      desc: "Godot 3 "
+    - img: \assets\img\icons\inky.png
+      desc: "Inky "
 
   posts:
   writeup:
@@ -417,9 +453,12 @@
   awards:
 
   icons: 
-    - \assets\img\icons\itch.png 
-    - \assets\img\icons\unity.png 
-    - \assets\img\icons\csharp.png 
+    - img: \assets\img\icons\itch.png 
+      desc: "Released&#32;on&#32;Itch.io "
+    - img: \assets\img\icons\unity.png 
+      desc: "Unity "
+    - img: \assets\img\icons\csharp.png
+      desc: "C# "
 
   posts:
   writeup:
@@ -458,9 +497,12 @@
   awards:
 
   icons: 
-    - \assets\img\icons\itch.png
-    - \assets\img\icons\unity.png 
-    - \assets\img\icons\csharp.png
+    - img: \assets\img\icons\itch.png 
+      desc: "Released&#32;on&#32;Itch.io "
+    - img: \assets\img\icons\unity.png 
+      desc: "Unity "
+    - img: \assets\img\icons\csharp.png
+      desc: "C# "
 
   posts:
   writeup: 
