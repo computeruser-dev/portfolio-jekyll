@@ -87,6 +87,7 @@ $bg-fadein-distance: 440px;
 .about-card {
     @extend .home-card;
     height: calc($cardHeight + $aboutCardExtraHeight);
+    position: relative; /* to position the featured background correctly */
 }
 
 .about {
@@ -114,14 +115,17 @@ $bg-fadein-distance: 440px;
 /* featured project and big title-- only displayed if more than 1 column */
 @media only screen and (min-width: calc(($cardWidthTotal * 2)/* + (containerMargin * 2)*/)) {
     .featured {
+        position:absolute;
         background-color:#ffe68075;
         border: 2px dashed gold;
         transform: rotate(1deg);
-        height: calc(($cardMargin-top * 2) + $cardHeight + $titlePadding - 2px);
+
+        right: calc( -1 * ( $cardWidthTotal) );
+        top: 5px;
+
+        height: calc(($cardMargin-top * 2) + $cardHeight + $titlePadding + 20px);
         width: calc($cardWidth - 5px);
-        position:absolute;
-        top:calc($aboutCardShift + $containerMargin + 31px);
-        left: calc(($cardMargin-side * 2) + ($aboutCardWidthReduction * 2) + $cardWidth);
+
     }
     .featured-untilt {
         transform:rotate(-1deg);
