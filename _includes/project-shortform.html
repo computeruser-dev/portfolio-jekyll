@@ -9,6 +9,11 @@
                 </div>
             </a>
             <div class="project-short-bottom">
+                {% if award %}
+                    <div class="project-award-container">
+                        <img src={{award.img}} title={{award.name}}/>
+                    </div>
+                {% endif %}
                 <div class="project-short-hiddeninfo">
                     <div>
                     {% for icon in include.icons %}

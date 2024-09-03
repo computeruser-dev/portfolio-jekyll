@@ -1,0 +1,16 @@
+<div class="socmed-container">
+    <div class="socmed-media-container">
+        {% if include.img %}
+            <img src={{include.img}}>
+        {% endif %}
+        <!-- TODO alternatively display a video -->
+    </div>
+    <div class="socmed-title">
+        {{include.title}}
+    </div>
+    <div class="socmed-description">
+        {{include.desc}}
+    </div>
+</div>
+
+<!-- TODO: where do I want to put the link? do I also want text for which social media e.g. "on youtube" -->

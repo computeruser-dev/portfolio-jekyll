@@ -15,7 +15,7 @@ $featureHeightSmall: 288px;
 $featureWidthSmall: 512px;
 
 $cardMargin-side:5px;
-$cardMargin-top:25px;
+$cardMargin-top:30px;
 
 $cardWidthTotal: calc($cardWidth + ($cardMargin-side * 2));
 
@@ -39,6 +39,9 @@ $bg-fadein-distance: 440px;
 
 .home-container {
     margin: calc($aboutCardShift + $containerMargin) auto calc($containerMargin);
+    
+    padding-left:0px;
+    padding-right:2px;
 
     background: 
     linear-gradient(
@@ -120,10 +123,10 @@ $bg-fadein-distance: 440px;
         border: 2px dashed gold;
         transform: rotate(1deg);
 
-        right: calc( -1 * ( $cardWidthTotal) );
+        right: calc( -1 * ( $cardWidthTotal));
         top: 5px;
 
-        height: calc(($cardMargin-top * 2) + $cardHeight + $titlePadding + 20px);
+        height: calc(($cardMargin-top * 2) + $cardHeight + $titlePadding + 5px);
         width: calc($cardWidth - 5px);
 
     }
