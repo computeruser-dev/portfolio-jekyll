@@ -5,6 +5,7 @@ $color-bg: #ffdb4d;
 $color-bg-textbox: #ffe680;
 
 $containerMargin:30px;
+$containerPadding:25px;
 
 $cardWidth: 640px;
 $featureHeight: 360px;
@@ -15,12 +16,12 @@ $featureHeightSmall: 288px;
 $featureWidthSmall: 512px;
 
 $cardMargin-side:5px;
-$cardMargin-top:30px;
+$cardMargin-top:35px;
 
 $cardWidthTotal: calc($cardWidth + ($cardMargin-side * 2));
 
 $aboutCardShift: 40px;
-$aboutCardWidthReduction: 60px;
+$aboutCardWidthReduction: 55px;
 $aboutCardExtraHeight: 135px;
 
 $titleHeight: 130px;
@@ -40,8 +41,8 @@ $bg-fadein-distance: 440px;
 .home-container {
     margin: calc($aboutCardShift + $containerMargin) auto calc($containerMargin);
     
-    padding-left:0px;
-    padding-right:2px;
+    padding-left: $containerPadding;
+    padding-right: calc($containerPadding + 2px);
 
     background: 
     linear-gradient(
@@ -54,30 +55,6 @@ $bg-fadein-distance: 440px;
 
 #home-container {
     width: $cardWidthTotal;
-}
-
-/* 2 rows */
-@media only screen and (min-width: calc(($cardWidthTotal * 2)/* + (containerMargin * 2)*/)) {
-    #home-container {
-        width: calc($cardWidthTotal * 2);
-    }
-    .home-card:nth-child(2n) {
-        float:left;
-        clear: left;
-    }
-    .home-card:nth-child(2n + 1) {
-        clear: right;
-        float:right;
-    }
-}
-/* 3 rows */
-@media only screen and (min-width: calc(($cardWidthTotal * 3)/* + (containerMargin * 2)*/)) {
-    #home-container {
-        width: calc($cardWidthTotal * 3);
-    }
-    .home-card:nth-child(3n + 2) {
-        clear: left;
-    }
 }
 
 .home-card {
@@ -115,8 +92,21 @@ $bg-fadein-distance: 440px;
     display:none;
 }
 
-/* featured project and big title-- only displayed if more than 1 column */
-@media only screen and (min-width: calc(($cardWidthTotal * 2)/* + (containerMargin * 2)*/)) {
+/* 2 rows */
+@media only screen and (min-width: calc(($cardWidthTotal * 2) + ($containerPadding * 2))) {
+    #home-container {
+        width: calc($cardWidthTotal * 2);
+    }
+    .home-card:nth-child(2n) {
+        float:left;
+        clear: left;
+    }
+    .home-card:nth-child(2n + 1) {
+        clear: right;
+        float:right;
+    }
+
+    /* featured project and big title-- only displayed if more than 1 column */
     .featured {
         position:absolute;
         background-color:#ffe68075;
@@ -127,7 +117,7 @@ $bg-fadein-distance: 440px;
         top: 5px;
 
         height: calc(($cardMargin-top * 2) + $cardHeight + $titlePadding + 5px);
-        width: calc($cardWidth - 5px);
+        width: calc($cardWidth - 8px);
 
     }
     .featured-untilt {
@@ -141,6 +131,15 @@ $bg-fadein-distance: 440px;
         float:right;
         height: $aboutCardShift;
         margin-top:-$aboutCardShift;
+    }
+}
+/* 3 rows */
+@media only screen and (min-width: calc(($cardWidthTotal * 3) + ($containerPadding * 2))) {
+    #home-container {
+        width: calc($cardWidthTotal * 3);
+    }
+    .home-card:nth-child(3n + 2) {
+        clear: left;
     }
 }
 

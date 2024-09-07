@@ -1,16 +1,26 @@
 <div class="socmed-container">
+    <div class="socmed-type">
+        {{include.site}} <!-- e.g. youtube, linkedin, ect -->
+    </div>
     <div class="socmed-media-container">
-        {% if include.img %}
-            <img src={{include.img}}>
+        <!-- video embed -->
+        {% if include.video %} 
+            <video width="640" height="360" controls>
+                <source src={{include.video}} type="video/mp4">
+
+                <!-- image displays as backup -->
+                <img src={{include.img}} width="640" height="360">
+            </video> 
+        
+        <!-- image or gif embed -->
+        {% elsif include.img %} 
+            <img src={{include.img}} width="640" height="360">
         {% endif %}
-        <!-- TODO alternatively display a video -->
     </div>
     <div class="socmed-title">
-        {{include.title}}
+        <a href={{include.url}}>{{include.title}}</a>
     </div>
     <div class="socmed-description">
         {{include.desc}}
     </div>
 </div>
-
-<!-- TODO: where do I want to put the link? do I also want text for which social media e.g. "on youtube" -->

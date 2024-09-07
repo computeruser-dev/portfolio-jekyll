@@ -67,7 +67,7 @@
 
 - slug: moongrave
   title: Probing Moongrave
-  desc-short: A game where you program robots to survey the dead moon below. Written in FORTH for custom hardware. Fits in 1mb! GMTK Jam 2024.
+  desc-short: Program robots to survey the dead moon below. Written in FORTH, a language from the 1970s, for custom hardware. Fits in 1mb! GMTK Jam 2024.
 
   color-background: 
   color-text: 
@@ -309,7 +309,7 @@
 
 - slug: manual-labor-factory
   title: I Love Working At The Repetitive Manual Labor Factory!
-  desc-short: Narrative game built in a custom programming language for custom hardware. GMTK Jam 2023.
+  desc-short: Interactive experience built in a custom assembly-like language for custom hardware. GMTK Jam 2023.
 
   color-background: 
   color-text: 
