@@ -4,23 +4,32 @@
             <a href={{include.link}}>
                 <div class="project-short-feature">
                     <div class="feature-img-container">
-                        <img src={{include.still}}/>
-                        <!--
-                        WIP, only appears on hover 
-
-                        <video width="640" height="360" controls autoplay muted>
+                        {% if include.youtubeid %}
+                        <img class="feature-unhovered" src={{include.still}}/>
+                        {% capture youtube_url %} https://www.youtube.com/embed/{{include.youtubeid}}?autoplay=1&mute=1&loop=1&controls=1 {% endcapture %}
+                        <iframe class="feature-hovering" width="640" height="360" src={{youtube_url}}>
+                            <!-- image displays as backup -->
+                            <img src={{include.still}}>
+                        </iframe> 
+                        {% elsif include.videofile %}
+                        <img class="feature-unhovered" src={{include.still}}/>
+                        <video class="feature-hovering" width="640" height="360" controls autoplay muted>
                             <source src={{include.video}} type="video/mp4">
 
-                            <!-- image displays as backup --><!--
+                            <!-- image displays as backup -->
                             <img src={{include.still}}>
-                        </video> 
-                        
-                        -->
+                        </video>
+                        {% elsif include.gif %}
+                        <img class="feature-unhovered" src={{include.still}}/>
+                        <img class="feature-hovering" src={{include.gif}}/>
+                        {% else %}
+                        <img class="feature-regardless-of-hover" src="{{include.still}}"/>
+                        {% endif %}
                     </div>
                 </div>
             </a>
             <div class="project-short-bottom">
-                {% if award %}
+                {% if include.award %}
                     <div class="project-award-container">
                         <img src={{award.img}} title={{award.name}}/>
                     </div>

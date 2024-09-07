@@ -6,7 +6,8 @@
   color-background: 
   color-text: 
   color-accent:
-
+  
+  youtubeid: "Zsx46i_8UQo"
   video: 
   gif: 
   still: "assets/img/projects/rope-tool/rt-arc.jpg "
@@ -73,6 +74,7 @@
   color-text: 
   color-accent: 
 
+  youtubeid:
   video: 
   gif: 
   still: "assets/img/projects/moongrave/mg-introscreen.png "
@@ -124,6 +126,7 @@
   color-text: 
   color-accent:
 
+  youtubeid:
   video: 
   gif: 
   still: "assets/img/projects/rope-tool-database/rtdb-gameview.png "
@@ -179,7 +182,8 @@
   color-text: 
   color-accent:
 
-  video: https://www.youtube.com/watch?v=stL8oeAqbA0
+  youtubeid: "stL8oeAqbA0"
+  video:
   gif: 
   still: "assets/img/projects/carbonbusters/cb-day-bikelane-car.png "
 
@@ -232,6 +236,7 @@
   color-text: 
   color-accent:
 
+  youtubeid:
   video: 
   gif: 
   still: "assets/img/projects/poker-night/pn-planet.png "
@@ -275,6 +280,7 @@
   color-text: 
   color-accent:
 
+  youtubeid:
   video: 
   gif: 
   still: "assets/img/projects/transmission/tm.png "
@@ -315,6 +321,7 @@
   color-text: 
   color-accent:
 
+  youtubeid:
   video: 
   gif: 
   still: "assets/img/projects/manual-labor-factory/mlf-thermostats.png "
@@ -359,6 +366,7 @@
   color-text: 
   color-accent:
 
+  youtubeid:
   video: 
   gif: 
   still: "assets/img/projects/terrarium/terr.png "
@@ -401,6 +409,7 @@
   color-text: 
   color-accent:
 
+  youtubeid:
   video: 
   gif: 
   still: "assets/img/projects/sc/sc-dialogue-multi.jpg "
@@ -446,7 +455,8 @@
   color-text: 
   color-accent:
 
-  video: https://www.youtube.com/watch?v=TyaU0MH_FPI
+  youtubeid: "TyaU0MH_FPI"
+  video: 
   gif: 
   still: "assets/img/projects/tokyo-rhythm-fighter/trf-perfect.png "
 
@@ -490,7 +500,8 @@
   color-text: 
   color-accent:
 
-  video: https://www.youtube.com/watch?v=oRfa5B3XnU0
+  youtubeid: oRfa5B3XnU0
+  video: 
   gif: 
   still: "assets/img/projects/luna/luna-switch-up-the-music.png "
 

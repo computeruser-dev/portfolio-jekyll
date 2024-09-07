@@ -188,6 +188,42 @@ $bg-fadein-distance: 440px;
     transition: $transitionSpeedProjSize;
 }
 
+.feature-unhovered {
+    opacity:1;
+    position:absolute;
+
+    height:$featureHeightSmall;
+    width: $featureWidthSmall;
+
+    transition: $transitionSpeedProjSize;
+}
+.project-short-container:hover .feature-unhovered {
+    opacity:0;
+
+    height:$featureHeight;
+    width: $featureWidth;
+
+    transition: $transitionSpeedProjSize;
+}
+
+.feature-hovering {
+    opacity:0;
+    position:absolute;
+
+    height:$featureHeightSmall;
+    width: $featureWidthSmall;
+
+    transition: $transitionSpeedProjSize;
+}
+.project-short-container:hover .feature-hovering {
+    opacity:1;
+
+    height:$featureHeight;
+    width: $featureWidth;
+
+    transition: $transitionSpeedProjSize;
+}
+
 .feature-img-container img {
     max-height: $featureHeightSmall;
     max-width: $featureWidthSmall; 
