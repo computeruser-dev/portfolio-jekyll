@@ -129,9 +129,11 @@
   youtubeid:
   video: 
   gif: 
-  still: "assets/img/projects/rope-tool-database/rtdb-gameview.png "
+  still: "assets/img/projects/rope-tool-database/leaderboard-justtext.png "
 
-  images: assets/img/projects/rope-tool-database/rtdb-gameview.png
+  images: 
+    - "assets/img/projects/rope-tool-database/rtdb-gameview.png "
+    - "assets/img/projects/rope-tool-database/leaderboard-justtext.png "
 
   award: 
     name: 
