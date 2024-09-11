@@ -184,7 +184,7 @@
   color-text: 
   color-accent:
 
-  youtubeid: "stL8oeAqbA0"
+  youtubeid: #"stL8oeAqbA0"
   video:
   gif: 
   still: "assets/img/projects/carbonbusters/cb-day-bikelane-car.png "
@@ -457,7 +457,7 @@
   color-text: 
   color-accent:
 
-  youtubeid: "TyaU0MH_FPI"
+  youtubeid: #"TyaU0MH_FPI"
   video: 
   gif: 
   still: "assets/img/projects/tokyo-rhythm-fighter/trf-perfect.png "
@@ -502,7 +502,7 @@
   color-text: 
   color-accent:
 
-  youtubeid: oRfa5B3XnU0
+  youtubeid: #oRfa5B3XnU0
   video: 
   gif: 
   still: "assets/img/projects/luna/luna-switch-up-the-music.png "
