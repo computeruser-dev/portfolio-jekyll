@@ -15,8 +15,8 @@
                         {% elsif include.videofile %} {% endif %}-->
                         {% if include.videofile %}
                         <img class="feature-unhovered" src={{include.still}}/>
-                        <video class="feature-hovering" width="640" height="360" controls autoplay muted>
-                            <source src={{include.video}} type="video/mp4">
+                        <video class="feature-hovering" width="640" height="360" controls autoplay muted loop>
+                            <source src={{include.videofile}} type="video/mp4">
 
                             <!-- image displays as backup -->
                             <img src={{include.still}}>
