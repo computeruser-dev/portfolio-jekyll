@@ -6,14 +6,15 @@
                     <!--<div class="feature-featuredtext">Featured</div>-->
                     <div class="feature-img-container">
                         <!-- actually the youtube embed is pretty ugly especially the recommended stuff at the end -->
-                        {% if include.youtubeid %}
+                        <!--{% if include.youtubeid %}
                         <img class="feature-unhovered" src={{include.still}}/>
                         {% capture youtube_url %} https://www.youtube.com/embed/{{include.youtubeid}}?autoplay=1&mute=1&loop=1&controls=1 {% endcapture %}
-                        <iframe class="feature-hovering" width="640" height="1280" src={{youtube_url}}>
+                        <iframe class="feature-hovering" width="640" height="360" src={{youtube_url}}>
                             <!-- image displays as backup -->
-                            <img src={{include.still}}>
-                        </iframe> 
-                        {% elsif include.videofile %} 
+                            <!--<img src={{include.still}}>-->
+                        <!--</iframe> 
+                        {% elsif include.videofile %} {% endif %}-->
+                        {% if include.videofile %}
                         <img class="feature-unhovered" src={{include.still}}/>
                         <video class="feature-hovering" width="640" height="360" controls autoplay muted loop>
                             <source src={{include.videofile}} type="video/mp4">
