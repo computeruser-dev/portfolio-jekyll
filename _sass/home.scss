@@ -21,7 +21,8 @@ $cardMargin-top:35px;
 $cardWidthTotal: calc($cardWidth + ($cardMargin-side * 2));
 
 $aboutCardShift: 40px;
-$aboutCardWidthReduction: 55px;
+$aboutCardShiftLeft: 7px;
+$aboutCardWidthReduction: 70px;
 $aboutCardExtraHeight: 135px;
 
 $titleHeight: 130px;
@@ -75,6 +76,7 @@ $bg-fadein-distance: 440px;
     background-color: $color-bg;
     padding:20px;
     margin-top:-$aboutCardShift;
+    margin-left:$aboutCardShiftLeft;
     /*height: $cardHeight + $aboutCardShift - $aboutCardWidthReduction + $aboutCardExtraHeight;*/
     width: calc($cardWidth - $aboutCardWidthReduction);
 }
@@ -119,9 +121,11 @@ $bg-fadein-distance: 440px;
         height: calc(($cardMargin-top * 2) + $cardHeight + $titlePadding + 5px);
         width: calc($cardWidth - 8px);
 
+        display:none;
+
     }
     .featured-untilt {
-        /*transform:rotate(-1deg);*/
+        transform:rotate(-1deg);
     }
     .featured-text {
 
@@ -286,17 +290,18 @@ $bg-fadein-distance: 440px;
     z-index:101;
 }
 
-.project-short-title {
-    font-size:24px;
-    font-weight:bold;
-    padding: $titlePadding;
-    color:white;
-    width: $cardWidthSmall - calc($titlePadding * 2);
-    margin-top: calc($titleHeight - $titleWordSpace);
-    position:absolute;
-    bottom:0;
-    z-index:101;
+/*
+.feature-featuredtext {
+    @extend .project-short-title-bottom;
+    position:relative;
+    margin-top:-60px;
+    width:auto;
+    padding-left:0;
 }
+.home-card:nth-child(2) .feature-featuredtext {
+    border:5px solid red;
+}
+*/
 
 .project-short-bottom-desc {
     padding: $titlePadding;

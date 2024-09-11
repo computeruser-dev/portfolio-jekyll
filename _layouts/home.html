@@ -47,4 +47,21 @@
       </div>
     </div>
   </body>
+
+  <script> 
+	// videofile videos automatically pause if no longer being hovered 
+	
+	const videos = document.querySelectorAll('video.feature-hovering');
+	
+	videos.forEach(video => {
+	  video.addEventListener('mouseenter', () => {
+		video.play();
+	  });
+	  
+	  video.addEventListener('mouseleave', () => {
+		video.pause();
+	  });
+	});
+	</script> 
+
 </html>
