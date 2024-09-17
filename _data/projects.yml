@@ -8,7 +8,9 @@
   color-accent:
   
   youtubeid: "Zsx46i_8UQo"
-  video: "assets/video/rt-imagine2024-720.mp4"
+  #drivevideo: "https://drive.google.com/file/d/18FB_BIDLEGEh_asf3CngcpKoWOAX9-8M/preview"
+  #video: "assets/video/rt-imagine2024-720.mp4"
+  videofile: "https://github.com/cep450/portfolio-jekyll/raw/main/assets/video/rt-imagine2024-720.mp4"
   gif: 
   still: "assets/img/projects/rope-tool/rt-arc.jpg "
 

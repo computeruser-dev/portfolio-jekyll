@@ -40,7 +40,7 @@
 		</div>
 
         {% for project in site.data.projects %}
-            {% include project-shortform.html proj=project title=project.title desc=project.desc-short still=project.still link=project.featurelink icons=project.icons date=project.release youtubeid=project.youtubeid %} <!-- videofile=project.video -->
+            {% include project-shortform.html proj=project title=project.title desc=project.desc-short still=project.still link=project.featurelink icons=project.icons date=project.release youtubeid=project.youtubeid drivevideo=project.drivevideo videofile=project.videofile %}
         {% endfor %}
 
 		{% include footer.html %}
