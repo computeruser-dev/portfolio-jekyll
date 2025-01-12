@@ -17,11 +17,17 @@
   short: "github" 
   full: "github.com/cep450"
 
-- link: "https://twitter.com/computerloved"
-  icon: "assets/img/icons/twitter.png"
-  title: "Twitter"
-  short: "twitter" 
-  full: "twitter.com/computerloved"
+- link: "https://bsky.app/profile/computeruser-dev.bsky.social"
+  icon: "assets/img/icons/bluesky.png"
+  title: "Bluesky"
+  short: "bluesky" 
+  full: "@computeruser-dev.bsky.social"
+
+#- link: "https://twitter.com/computerloved"
+#  icon: "assets/img/icons/twitter.png"
+#  title: "Twitter"
+#  short: "twitter" 
+#  full: "twitter.com/computerloved"
  
 - link: "mailto:cep450@nyu.edu"
   icon: "assets/img/icons/email.png"
