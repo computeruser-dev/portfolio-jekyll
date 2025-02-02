@@ -24,8 +24,9 @@ description: >- # this means to ignore newlines until "baseurl:" It will appear 
   Software Engineer and Game Developer interested in climate solutions.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://computeruser.neocities.org" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: computerloved
-github_username:  cep450
+twitter_username: "computerloved"
+github_username:  "cep450"
+bluesky_username: "computeruser-dev.bsky.social"
 
 # Build settings
 # theme: minima

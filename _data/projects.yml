@@ -66,6 +66,53 @@
 
 
 
+- slug: bubble
+  title: Thumbtack Head's Bubble Delivery
+  desc-short: How much movement tech can you discover? Global Game Jam 2025.
+
+  color-background: 
+  color-text: 
+  color-accent: 
+
+  youtubeid:
+  video: 
+  gif: "assets/img/projects/bubble/bubblegif1.gif "
+  still: "assets/img/projects/bubble/bubbletitlescreen.png "
+
+  images:
+    - "assets/img/projects/bubble/bubbletitlescreen.png "
+
+  award: 
+    name: 
+    img:
+
+  repo: https://github.com/cep450/GGJ-2025
+  itchlink: https://computeruser.itch.io/ggj-2025
+  steamlink: 
+  otherlink: 
+
+  featurelink: https://computeruser.itch.io/ggj-2025
+
+  role: Programmer
+  daterange: Jan 2024
+  release: Jan 2024
+  teamsize: 6
+  tools: Unity, C#
+  awards: 
+
+  icons: 
+    - img: "assets/img/icons/itch.png"
+      desc: "Released&#32;on&#32;Itch.io "
+    - img: "assets/img/icons/unity.png"
+      desc: "Unity "
+    - img: "assets/img/icons/csharp.png"
+      desc: "C# "
+
+  posts: 
+  writeup: 
+
+
+
 
 
 - slug: moongrave
@@ -156,9 +203,6 @@
   awards:
 
   icons: 
-#    - assets/img/icons/nodejs.png
-#    - assets/img/icons/javascript.png
-#    - assets/img/icons/unity.png
     - img: assets/img/icons/nodejs-jsonly.png 
       desc: "NodeJS "
     - img: assets/img/icons/expressjs.png
