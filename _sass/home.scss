@@ -17,7 +17,7 @@ $featureHeightSmall: 288px;
 $featureWidthSmall: 512px;
 
 $cardMargin-side:5px;
-$cardMargin-top:35px;
+$cardMargin-top:40px;
 
 $cardWidthTotal: calc($cardWidth + ($cardMargin-side * 2));
 
@@ -322,6 +322,9 @@ $bg-fadein-distance: 440px;
     color:black;
     width: $cardWidthSmall - calc($titlePadding * 2);
     padding-top:0;
+}
+.project-short-bottom-desc p {
+    margin-top:0;
 }
 
 .project-short-desc {
