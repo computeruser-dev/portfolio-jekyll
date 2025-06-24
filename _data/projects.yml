@@ -12,19 +12,19 @@
   #video: "assets/video/rt-imagine2024-720.mp4"
   videofile: "https://github.com/cep450/portfolio-jekyll/raw/main/assets/video/rt-summer2025.mp4"
   gif: 
-  still: "assets/img/projects/rope-tool/rt-summer2025-slowdown.png"
+  still: "assets/img/projects/rope-tool/rt-summer2025-slowdown.png "
 
   images: 
-    - "assets/img/projects/rope-tool/rt-summer2025-slowdown.png"
-    - "assets/img/projects/rope-tool/rt-summer2025-arc.png"
-    - "assets/img/projects/rope-tool/rt-summer2025-2rockets.png"
-    - "assets/img/projects/rope-tool/rt-summer2025-demobot.png"
-    - "assets/img/projects/rope-tool/rt-summer2025-droid.png"
-    - "assets/img/projects/rope-tool/rt-summer2025-explosions.png"
+    - "assets/img/projects/rope-tool/rt-summer2025-slowdown.png "
+    - "assets/img/projects/rope-tool/rt-summer2025-arc.png "
+    - "assets/img/projects/rope-tool/rt-summer2025-2rockets.png "
+    - "assets/img/projects/rope-tool/rt-summer2025-demobot.png "
+    - "assets/img/projects/rope-tool/rt-summer2025-droid.png "
+    - "assets/img/projects/rope-tool/rt-summer2025-explosions.png "
 
   award: 
     name: "Technical Excellence - EDGE Exhibition "
-    img: "assets/img/projects/rope-tool/rt-edge-technical-excellence-award.jpg"
+    img: "assets/img/projects/rope-tool/rt-edge-technical-excellence-award.jpg "
 
   repo: 
   itchlink: https://xandergoodwin.itch.io/rope-tool
@@ -132,10 +132,10 @@
   still: "assets/img/projects/moongrave/mg-introscreen.png "
 
   images:
-    - "assets/img/projects/moongrave/mg-introscreen.png"
-    - "assets/img/projects/moongrave/mg-codescreen.png"
-    - "assets/img/projects/moongrave/mg-artifacts.png"
-    - "assets/img/projects/moongrave/mg-ending-outstanding.png"
+    - "assets/img/projects/moongrave/mg-introscreen.png "
+    - "assets/img/projects/moongrave/mg-codescreen.png "
+    - "assets/img/projects/moongrave/mg-artifacts.png "
+    - "assets/img/projects/moongrave/mg-ending-outstanding.png "
 
   award: 
     name: 
@@ -239,10 +239,10 @@
   still: "assets/img/projects/carbonbusters/cb-day-bikelane-car.png "
 
   images: 
-  - assets/img/projects/carbonbusters/cb-cars.png
-  - assets/img/projects/carbonbusters/cb-day-bikelane-car.png
-  - assets/img/projects/carbonbusters/cb-night-cyclists.png
-  - assets/img/projects/carbonbusters/cb-sidewalk-people.png
+  - "assets/img/projects/carbonbusters/cb-cars.png "
+  - "assets/img/projects/carbonbusters/cb-day-bikelane-car.png "
+  - "assets/img/projects/carbonbusters/cb-night-cyclists.png "
+  - "assets/img/projects/carbonbusters/cb-sidewalk-people.png "
 
   award: 
     name: 
@@ -293,8 +293,8 @@
   still: "assets/img/projects/poker-night/pn-planet.png "
 
   images: 
-    - assets/img/projects/poker-night/pn-planet.png
-    - assets/img/projects/poker-night/pn-ai.png
+    - "assets/img/projects/poker-night/pn-planet.png "
+    - "assets/img/projects/poker-night/pn-ai.png "
 
   repo: https://github.com/courtesyy/Pbouxhkiir-Night
   itchlink: https://courtesy.itch.io/pbouxhkiir-night
@@ -337,7 +337,7 @@
   still: "assets/img/projects/transmission/tm.png "
 
   images: 
-  - assets/img/projects/transmission/tm.png
+  - "assets/img/projects/transmission/tm.png "
 
   repo: 
   itchlink: https://computeruser.itch.io/transmission-received
@@ -378,9 +378,9 @@
   still: "assets/img/projects/manual-labor-factory/mlf-thermostats.png "
 
   images: 
-    - assets/img/projects/manual-labor-factory/mlf-repeat.png
-    - assets/img/projects/manual-labor-factory/mlf-thermostats.png
-    - assets/img/projects/manual-labor-factory/mlf-draw.png
+    - "assets/img/projects/manual-labor-factory/mlf-repeat.png "
+    - "assets/img/projects/manual-labor-factory/mlf-thermostats.png "
+    - "assets/img/projects/manual-labor-factory/mlf-draw.png s"
 
   repo: https://github.com/MechaFinch/GTMK-jam-2023
   itchlink: https://mechafinch.itch.io/repetitive-manual-labor-factory
@@ -512,9 +512,9 @@
   still: "assets/img/projects/tokyo-rhythm-fighter/trf-perfect.png "
 
   images: 
-    - assets/img/projects/tokyo-rhythm-fighter/trf-perfect.png
-    - assets/img/projects/tokyo-rhythm-fighter/trf-hold.png
-    - assets/img/projects/tokyo-rhythm-fighter/trf-start.png
+    - "assets/img/projects/tokyo-rhythm-fighter/trf-perfect.png "
+    - "assets/img/projects/tokyo-rhythm-fighter/trf-hold.png "
+    - "assets/img/projects/tokyo-rhythm-fighter/trf-start.png "
 
   repo: https://github.com/twinsrule527/TOKYO-RHYTHM-FIGHTER
   itchlink: https://computeruser.itch.io/tokyo-rhythm-fighter
@@ -557,9 +557,9 @@
   still: "assets/img/projects/luna/luna-switch-up-the-music.png "
 
   images: 
-    - assets/img/projects/luna/luna-switch-up-the-music.png
-    - assets/img/projects/luna/luna-bands.png
-    - assets/img/projects/luna/luna-talking-heads.png
+    - "assets/img/projects/luna/luna-switch-up-the-music.png "
+    - "assets/img/projects/luna/luna-bands.png "
+    - "assets/img/projects/luna/luna-talking-heads.png "
 
   repo: https://github.com/cep450/LUNA
   itchlink: https://computeruser.itch.io/luna
