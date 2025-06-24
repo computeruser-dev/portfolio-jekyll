@@ -1,23 +1,26 @@
 # the first project will be shown in the 'featured' area 
 - slug: rope-tool
   title: Project Rope Tool
-  desc-short: Physics-led action game where you pilot a spaceship using only a grappling hook and an industrial stapler. Technical Excellence award winner at EDGE 2024. Wishlist on Steam!
+  desc-short: Physics-led action game where you pilot a spaceship using only a grappling hook and an industrial stapler. Technical Excellence award winner at EDGE 2024, now part of MAGIC's 2025-2025 Community Incubator! Play the demo on itch.io and wishlist on Steam!
 
   color-background: 
   color-text: 
   color-accent:
   
-  youtubeid: "Zsx46i_8UQo"
-  #drivevideo: "https://drive.google.com/file/d/18FB_BIDLEGEh_asf3CngcpKoWOAX9-8M/preview"
+  youtubeid: "EC0a2vUXMBY"
+  #drivevideo: ""
   #video: "assets/video/rt-imagine2024-720.mp4"
-  videofile: "https://github.com/cep450/portfolio-jekyll/raw/main/assets/video/rt-imagine2024-720.mp4"
+  videofile: "https://github.com/cep450/portfolio-jekyll/raw/main/assets/video/rt-summer2025.mp4"
   gif: 
-  still: "assets/img/projects/rope-tool/rt-arc.jpg "
+  still: "assets/img/projects/rope-tool/rt-summer2025-slowdown.jpg "
 
   images: 
-    - "assets/img/projects/rope-tool/rt-asteroid-grapple.jpg"
-    - "assets/img/projects/rope-tool/rt-arc.jpg"
-    - "assets/img/projects/rope-tool/rt-demobot-dive.jpg"
+    - "assets/img/projects/rope-tool/rt-summer2025-slowdown.jpg"
+    - "assets/img/projects/rope-tool/rt-summer2025-arc.jpg"
+    - "assets/img/projects/rope-tool/rt-summer2025-2rockets.jpg"
+    - "assets/img/projects/rope-tool/rt-summer2025-demobot.jpg"
+    - "assets/img/projects/rope-tool/rt-summer2025-droid.jpg"
+    - "assets/img/projects/rope-tool/rt-summer2025-explosions.jpg"
 
   award: 
     name: "Technical Excellence - EDGE Exhibition "
