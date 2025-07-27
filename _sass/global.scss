@@ -80,7 +80,7 @@ $text-box-p-margin: 16px;
 .linktree-container {
     @extend .text-box;
     /*height:190px;*/	/*hacky fix for multiple button animations going causing the containing div height to change */
-    height:90px;
+    height:100px;
     padding:5px;
     padding-left:6px;
 }
