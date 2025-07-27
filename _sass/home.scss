@@ -16,12 +16,13 @@ $cardWidthSmall: 512px;
 $featureHeightSmall: 288px;
 $featureWidthSmall: 512px;
 
-$cardMargin-side:5px;
+$cardMargin-side:8px;
 $cardMargin-top:40px;
 
 $cardWidthTotal: calc($cardWidth + ($cardMargin-side * 2));
 
-$aboutCardShift: 40px;
+/*$aboutCardShift: 40px;*/
+$aboutCardShift:0px;
 $aboutCardShiftLeft: 7px;
 $aboutCardWidthReduction: 70px;
 $aboutCardExtraHeight: 135px;
