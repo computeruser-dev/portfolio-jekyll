@@ -24,8 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:" It will appear 
   Portfolio
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://computeruser.neocities.org" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  "cep450"
-bluesky_username: "computeruser-dev.bsky.social"
+github_username:  "computeruser-dev"
 
 # Build settings
 # theme: minima
