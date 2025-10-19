@@ -1,9 +1,3 @@
- 
-#- link: ""
-#  icon: "/assets/img/icons/blog.png"
-#  title: "Blog/Devlog"  
-#  short: "" 
-#  full: ""
 
 - link: "https://computeruser.itch.io/"
   icon: "assets/img/icons/itch.png"
@@ -16,18 +10,18 @@
   title: "Github"
   short: "github" 
   full: "github.com/computeruser-dev"
-
-#- link: "https://bsky.app/profile/computeruser-dev.bsky.social"
-#  icon: "assets/img/icons/bluesky.png"
-#  title: "Bluesky"
-#  short: "bluesky" 
-#  full: "@____.bsky.social"
  
 #- link: "mailto:____-dev@proton.me"
 #  icon: "assets/img/icons/email.png"
 #  title: "Contact"  
 #  short: "email" 
 #  full: "email"
+
+#- link: ""
+#  icon: "/assets/img/icons/blog.png"
+#  title: "Blog/Devlog"  
+#  short: "" 
+#  full: ""
 
 #- link: ""
 #  icon: "assets/img/icons/rss.png"
