@@ -1,9 +1,9 @@
 # the first project will be shown in the 'featured' area 
 
 
-- slug: rope-tool
-  title: Project Rope Tool
-  desc-short: <p>Physics-led action game where you pilot a spaceship using only a grappling hook and an industrial stapler.</p><p>Technical Excellence award winner at EDGE 2024, now part of MAGIC's 2025-2026 Community Incubator!</p><p>Play the demo on Itch and wishlist on Steam!</p>
+- slug: tetherpunk
+  title: TETHERPUNK
+  desc-short: <p>Physics-led action game where you pilot a spaceship using only a grappling hook and an industrial stapler.</p><p>Technical Excellence award winner at EDGE 2024, now part of MAGIC's 2025-2026 Community Incubator!</p><p>Play the demo on Itch and wishlist on Steam!</p><p>Formerly known as <i>Project Rope Tool</i>.</p>
 
   color-background: 
   color-text: 
@@ -66,54 +66,51 @@
 
 
 
-#- slug: otherworld
-#  title: Rochester Film Otherworld website
-#  desc-short: Website for Rochester Film Otherworld, an experimental film organization. Early internet flavor with modern accessibility and development practices. 
+- slug: otherworld
+  title: Rochester Film Otherworld website
+  desc-short: Website for Rochester Film Otherworld, an experimental film organization. Early internet flavor with modern accessibility and development practices. Built with Zola, a static site generator. 
 
-#  color-background: 
-#  color-text: 
-#  color-accent:
+  color-background: 
+  color-text: 
+  color-accent:
   
-#  youtubeid: ""
-#  videofile: ""
-#  gif: ""
-#  still: " "
+  youtubeid: ""
+  videofile: ""
+  gif: ""
+  still: "assets/img/projects/otherworld/enter.png "
 
-#  images: 
-#    - " "
+  images: 
+    - " "
 
-#  repo: 
-#  itchlink: 
-#  steamlink: 
-#  otherlink: "https://rocfilmotherworld.neocities.org/ "
+  repo: 
+  itchlink: 
+  steamlink: 
+  otherlink: "https://rocfilmotherworld.neocities.org/ "
 
-#  featurelink: ""
+  featurelink: ""
 
-#  role: Web Developer
-#  daterange: Oct 2025-Present
-#  release: Ongoing
-#  teamsize: "2"
-#  tools: Zola, HTML, CSS, JavaScript
-#  awards: ""
+  role: Web Developer
+  daterange: Oct 2025-Present
+  release: Ongoing
+  teamsize: "2"
+  tools: Zola, HTML, CSS, JavaScript
+  awards: ""
 
-#  icons: 
-#    - img: "assets/img/icons/itch.png"
-#      desc: "Zola "
-#    - img: "assets/img/icons/steam.png"
-#      desc: "HTML "
-#    - img: "assets/img/icons/unity.png"
-#      desc: "CSS "
-#    - img: "assets/img/icons/csharp.png"
-#      desc: "JavaScript "
+  icons: 
+    - img: "assets/img/icons/zola.png"
+      desc: "Zola "
+    - img: "assets/img/icons/html.png"
+      desc: "HTML "
+    - img: "assets/img/icons/sass.png"
+      desc: "SASS "
 
-#  iconsdescs: 
-#    - Zola
-#    - HTML
-#    - CSS
-#    - JavaScript
+  iconsdescs: 
+    - Zola
+    - HTML
+    - SASS
 
-#  posts:
-#  writeup:
+  posts:
+  writeup:
 
 
 
