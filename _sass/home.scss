@@ -2,11 +2,18 @@
 @use "global";
 
 /* yellow */
+/*
 $color-bg: #ffdb4d;
 $color-bg-textbox: #ffe680;
-$color-bg-feature: rgb(30,30,30);
+$color-bg-feature: rgb(30,30,30);*/
 
 /* blue */
+$color-bg: #dde9f5;
+$color-bg-textbox: #F5F8FB;
+$color-bg-container: #F5F8FB99;
+$color-bg-feature: rgb(30,30,30);
+$color-outlines: rgb(30, 30, 30, 30);
+$color-featured: #E3F2FD75;
 
 $containerMargin:30px;
 $containerPadding:25px;
@@ -20,7 +27,7 @@ $featureHeightSmall: 288px;
 $featureWidthSmall: 512px;
 
 $cardMargin-side:8px;
-$cardMargin-top:40px;
+$cardMargin-top:50px;
 
 $cardWidthTotal: calc($cardWidth + ($cardMargin-side * 2));
 
@@ -49,7 +56,7 @@ $bg-fadein-distance: 440px;
     
     padding-left: $containerPadding;
     padding-right: calc($containerPadding + 2px);
-
+/*
     background: 
     linear-gradient(
     hsl(48, 100%, 75%, 0) 0%,
@@ -57,6 +64,9 @@ $bg-fadein-distance: 440px;
     hsla(48, 100%, 75%, 0.28) calc(100% - $bg-fadein-distance),
     hsl(48, 100%, 75%, 0) 100%
     );
+    */
+    background-color:$color-bg-container;
+    border-radius:30px;
 }
 
 #home-container {
@@ -116,8 +126,8 @@ $bg-fadein-distance: 440px;
     /* featured project and big title-- only displayed if more than 1 column */
     .featured {
         position:absolute;
-        background-color:#ffe68075;
-        border: 2px dashed gold;
+        background-color: $color-featured;
+        border: 2px dashed $color-outlines;
         transform: rotate(1deg);
 
         right: calc( -1 * ( $cardWidthTotal));
@@ -268,6 +278,7 @@ $bg-fadein-distance: 440px;
     
     height: calc($cardHeight - $featureHeightSmall + $cardMargin-top);
     
+    /*
     background-image: linear-gradient(
         hsl(48, 100%, 75%) 0%,
          hsla(48, 100%, 75%, 0.738) 19%,
@@ -283,7 +294,7 @@ $bg-fadein-distance: 440px;
          hsla(48, 100%, 75%, 0.002) 98.2%,
          hsla(48, 100%, 75%, 0) 100%
        );
-
+*/
     
     z-index:0;
     position:relative;
@@ -337,7 +348,7 @@ $bg-fadein-distance: 440px;
     height: calc($descHeight - ($titlePadding * 2));
     
     background-color: $color-bg-textbox;
-    border-top: 1px dashed gold;
+    border-top: 1px dashed $color-outlines;
 }
 .project-short-desc-text {
     width: calc($cardWidthSmall - 60px);

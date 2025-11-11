@@ -3,7 +3,7 @@
 
 - slug: tetherpunk
   title: TETHERPUNK
-  desc-short: <p>Physics-led action game where you pilot a spaceship using only a grappling hook and an industrial stapler.</p><p>Technical Excellence award winner at EDGE 2024, now part of MAGIC's 2025-2026 Community Incubator!</p><p>Play the demo on Itch and wishlist on Steam!</p><p>Formerly known as <i>Project Rope Tool</i>.</p>
+  desc-short: <p>Physics-led action game where you pilot a spaceship using only a grappling hook and an industrial stapler.</p><p>Technical Excellence award winner at EDGE 2024, now part of MAGIC's 2025-2026 Community Incubator!</p><p>Play the demo on Itch and wishlist on Steam!</p><p>Formerly under the working title <i>Project Rope Tool</i>.</p>
 
   color-background: 
   color-text: 
@@ -68,15 +68,15 @@
 
 - slug: otherworld
   title: Rochester Film Otherworld website
-  desc-short: Website for Rochester Film Otherworld, an experimental film organization. Early internet flavor with modern accessibility and development practices. Built with Zola, a static site generator. 
+  desc-short: Website for Rochester Film Otherworld, an experimental film organization. Enigmatic early internet flavor with modern development practices. Built with Zola. 
 
   color-background: 
   color-text: 
   color-accent:
   
-  youtubeid: ""
-  videofile: ""
-  gif: ""
+  youtubeid: 
+  videofile: 
+  gif: 
   still: "assets/img/projects/otherworld/enter.png "
 
   images: 
@@ -87,7 +87,7 @@
   steamlink: 
   otherlink: "https://rocfilmotherworld.neocities.org/ "
 
-  featurelink: ""
+  featurelink: "https://rocfilmotherworld.neocities.org/ "
 
   role: Web Developer
   daterange: Oct 2025-Present
@@ -103,6 +103,8 @@
       desc: "HTML "
     - img: "assets/img/icons/sass.png"
       desc: "SASS "
+    - img: "assets/img/icons/javascript.png"
+      desc: "JavaScript "
 
   iconsdescs: 
     - Zola
