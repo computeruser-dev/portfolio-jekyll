@@ -32,7 +32,9 @@ body {
 
 }
 
-
+a {
+	color:royalblue;
+}
 
 .title-custom {
 	font-size:22px;
@@ -57,7 +59,7 @@ $text-box-p-margin: 16px;
     margin:20px;
     padding:25px;
     //border: 2px dashed $color-outlines;
-    border:1px solid $color-outlines;
+    //border:1px solid $color-outlines;
     border-radius:3px;
     font-size:17px;
 }
@@ -121,6 +123,10 @@ $text-box-p-margin: 16px;
 .footer {
     clear: both;
     padding:20px;
+    padding-top:30px;
     position:relative;
     z-index:200;
+    text-align:center;
+    font-size:14px;
+    opacity:80%;
 }

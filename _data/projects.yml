@@ -1,9 +1,8 @@
 # the first project will be shown in the 'featured' area 
 
-
 - slug: tetherpunk
-  title: TETHERPUNK
-  desc-short: <p>Physics-led action game where you pilot a spaceship using only a grappling hook and an industrial stapler.</p><p>Technical Excellence award winner at EDGE 2024, now part of MAGIC's 2025-2026 Community Incubator!</p><p>Play the demo on Itch and wishlist on Steam!</p><p>Formerly under the working title <i>Project Rope Tool</i>.</p>
+  title: TETHERPUNK!
+  desc-short: <p>Physics-led action game where you pilot a spaceship using only a grappling hook and an industrial stapler.</p><p>Technical Excellence award winner at EDGE 2024, now part of MAGIC's 2025-2026 Community Incubator!</p><p>Play the demo on Itch and wishlist on Steam!</p>
 
   color-background: 
   color-text: 
@@ -29,11 +28,11 @@
     img: "assets/img/projects/rope-tool/rt-edge-technical-excellence-award.jpg "
 
   repo: 
-  itchlink: https://xandergoodwin.itch.io/rope-tool
-  steamlink: https://store.steampowered.com/app/2958730/Project_Rope_Tool/
+  itchlink: https://xandergoodwin.itch.io/tetherpunk
+  steamlink: https://store.steampowered.com/app/2958730/TETHERPUNK/
   otherlink:
 
-  featurelink: "https://store.steampowered.com/app/2958730/Project_Rope_Tool/"
+  featurelink: "https://store.steampowered.com/app/2958730/TETHERPUNK/"
 
   role: Principal Programmer
   daterange: Aug 2023-Present 
